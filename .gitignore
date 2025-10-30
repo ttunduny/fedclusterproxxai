@@ -15,3 +15,10 @@ env/
 .env
 .conda/
 .python-version
+venv/
+.venv/
+env/
+.env
+pycache_/
+.py[cod]
+
