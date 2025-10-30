@@ -1,0 +1,529 @@
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/keras/src/layers/core/dense.py:92: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(activity_regularizer=activity_regularizer, **kwargs)
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/keras/src/layers/core/dense.py:92: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(activity_regularizer=activity_regularizer, **kwargs)
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/keras/src/layers/core/dense.py:92: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(activity_regularizer=activity_regularizer, **kwargs)
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/keras/src/layers/core/dense.py:92: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(activity_regularizer=activity_regularizer, **kwargs)
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/keras/src/layers/core/dense.py:92: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(activity_regularizer=activity_regularizer, **kwargs)
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/keras/src/layers/core/dense.py:92: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(activity_regularizer=activity_regularizer, **kwargs)
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/keras/src/layers/core/dense.py:92: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(activity_regularizer=activity_regularizer, **kwargs)
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/keras/src/layers/core/dense.py:92: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(activity_regularizer=activity_regularizer, **kwargs)
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/keras/src/layers/core/dense.py:92: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(activity_regularizer=activity_regularizer, **kwargs)
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/keras/src/layers/core/dense.py:92: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(activity_regularizer=activity_regularizer, **kwargs)
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/keras/src/layers/core/dense.py:92: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(activity_regularizer=activity_regularizer, **kwargs)
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/keras/src/layers/core/dense.py:92: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(activity_regularizer=activity_regularizer, **kwargs)
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/keras/src/layers/core/dense.py:92: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(activity_regularizer=activity_regularizer, **kwargs)
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/keras/src/layers/core/dense.py:92: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(activity_regularizer=activity_regularizer, **kwargs)
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/keras/src/layers/core/dense.py:92: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(activity_regularizer=activity_regularizer, **kwargs)
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/keras/src/layers/core/dense.py:92: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(activity_regularizer=activity_regularizer, **kwargs)
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/keras/src/layers/core/dense.py:92: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(activity_regularizer=activity_regularizer, **kwargs)
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/keras/src/layers/core/dense.py:92: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(activity_regularizer=activity_regularizer, **kwargs)
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/keras/src/layers/core/dense.py:92: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(activity_regularizer=activity_regularizer, **kwargs)
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/keras/src/layers/core/dense.py:92: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(activity_regularizer=activity_regularizer, **kwargs)
+2025-10-28 13:04:41.054546: I tensorflow/core/framework/local_rendezvous.cc:407] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+2025-10-28 13:04:42.600556: I tensorflow/core/framework/local_rendezvous.cc:407] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+2025-10-28 13:04:45.769603: I tensorflow/core/framework/local_rendezvous.cc:407] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+2025-10-28 13:04:52.643179: I tensorflow/core/framework/local_rendezvous.cc:407] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+2025-10-28 13:05:07.261284: I tensorflow/core/framework/local_rendezvous.cc:407] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+2025-10-28 13:05:33.835902: I tensorflow/core/framework/local_rendezvous.cc:407] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+2025-10-28 13:06:23.665329: I tensorflow/core/framework/local_rendezvous.cc:407] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+2025-10-28 13:08:09.912204: I tensorflow/core/framework/local_rendezvous.cc:407] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/keras/src/layers/core/dense.py:92: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(activity_regularizer=activity_regularizer, **kwargs)
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/keras/src/layers/core/dense.py:92: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(activity_regularizer=activity_regularizer, **kwargs)
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/keras/src/layers/core/dense.py:92: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(activity_regularizer=activity_regularizer, **kwargs)
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/keras/src/layers/core/dense.py:92: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(activity_regularizer=activity_regularizer, **kwargs)
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/keras/src/layers/core/dense.py:92: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(activity_regularizer=activity_regularizer, **kwargs)
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/keras/src/layers/core/dense.py:92: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(activity_regularizer=activity_regularizer, **kwargs)
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/keras/src/layers/core/dense.py:92: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(activity_regularizer=activity_regularizer, **kwargs)
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/keras/src/layers/core/dense.py:92: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(activity_regularizer=activity_regularizer, **kwargs)
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/keras/src/layers/core/dense.py:92: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(activity_regularizer=activity_regularizer, **kwargs)
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/keras/src/layers/core/dense.py:92: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(activity_regularizer=activity_regularizer, **kwargs)
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/keras/src/layers/core/dense.py:92: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(activity_regularizer=activity_regularizer, **kwargs)
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/keras/src/layers/core/dense.py:92: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(activity_regularizer=activity_regularizer, **kwargs)
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/keras/src/layers/core/dense.py:92: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(activity_regularizer=activity_regularizer, **kwargs)
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/keras/src/layers/core/dense.py:92: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(activity_regularizer=activity_regularizer, **kwargs)
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/keras/src/layers/core/dense.py:92: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(activity_regularizer=activity_regularizer, **kwargs)
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/keras/src/layers/core/dense.py:92: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(activity_regularizer=activity_regularizer, **kwargs)
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/keras/src/layers/core/dense.py:92: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(activity_regularizer=activity_regularizer, **kwargs)
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/keras/src/layers/core/dense.py:92: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(activity_regularizer=activity_regularizer, **kwargs)
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/keras/src/layers/core/dense.py:92: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(activity_regularizer=activity_regularizer, **kwargs)
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/keras/src/layers/core/dense.py:92: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(activity_regularizer=activity_regularizer, **kwargs)
+2025-10-28 13:11:53.281505: I tensorflow/core/framework/local_rendezvous.cc:407] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+Loading 52 subject files...
+✓ Loaded Subject_Subject6.xlsx: 3803 samples
+✓ Loaded Subject_Subject39.xlsx: 3676 samples
+✓ Loaded Subject_Subject42.xlsx: 3999 samples
+✓ Loaded Subject_Subject15.xlsx: 4289 samples
+✓ Loaded Subject_Subject54.xlsx: 4119 samples
+✓ Loaded Subject_Subject23.xlsx: 4065 samples
+✓ Loaded Subject_Subject35.xlsx: 4035 samples
+✓ Loaded Subject_Subject19.xlsx: 7163 samples
+✓ Loaded Subject_Subject18.xlsx: 3600 samples
+✓ Loaded Subject_Subject34.xlsx: 4082 samples
+✓ Loaded Subject_Subject22.xlsx: 5787 samples
+✓ Loaded Subject_Subject14.xlsx: 4308 samples
+✓ Loaded Subject_Subject43.xlsx: 4092 samples
+✓ Loaded Subject_Subject38.xlsx: 4220 samples
+✓ Loaded Subject_Subject7.xlsx: 7739 samples
+✓ Loaded Subject_Subject25.xlsx: 7666 samples
+✓ Loaded Subject_Subject33.xlsx: 4779 samples
+✓ Loaded Subject_Subject48.xlsx: 3674 samples
+✓ Loaded Subject_Subject29.xlsx: 3942 samples
+✓ Loaded Subject_Subject44.xlsx: 4668 samples
+✓ Loaded Subject_Subject13.xlsx: 7716 samples
+✓ Loaded Subject_Subject52.xlsx: 3424 samples
+✓ Loaded Subject_Subject53.xlsx: 3175 samples
+✓ Loaded Subject_Subject12.xlsx: 7863 samples
+✓ Loaded Subject_Subject45.xlsx: 4076 samples
+✓ Loaded Subject_Subject28.xlsx: 7763 samples
+✓ Loaded Subject_Subject49.xlsx: 2609 samples
+✓ Loaded Subject_Subject32.xlsx: 3954 samples
+✓ Loaded Subject_Subject24.xlsx: 3606 samples
+✓ Loaded Subject_Subject31.xlsx: 4074 samples
+✓ Loaded Subject_Subject27.xlsx: 7478 samples
+✓ Loaded Subject_Subject50.xlsx: 2916 samples
+✓ Loaded Subject_Subject11.xlsx: 3830 samples
+✓ Loaded Subject_Subject46.xlsx: 4283 samples
+✓ Loaded Subject_Subject3.xlsx: 3877 samples
+✓ Loaded Subject_Subject47.xlsx: 4203 samples
+✓ Loaded Subject_Subject10.xlsx: 5699 samples
+✓ Loaded Subject_Subject51.xlsx: 4044 samples
+✓ Loaded Subject_Subject26.xlsx: 4217 samples
+✓ Loaded Subject_Subject30.xlsx: 4208 samples
+✓ Loaded Subject_Subject17.xlsx: 7199 samples
+✓ Loaded Subject_Subject40.xlsx: 4236 samples
+✓ Loaded Subject_Subject4.xlsx: 6969 samples
+✓ Loaded Subject_Subject37.xlsx: 4243 samples
+✓ Loaded Subject_Subject8.xlsx: 4268 samples
+✓ Loaded Subject_Subject21.xlsx: 4341 samples
+✓ Loaded Subject_Subject20.xlsx: 7933 samples
+✓ Loaded Subject_Subject9.xlsx: 7130 samples
+✓ Loaded Subject_Subject36.xlsx: 4197 samples
+✓ Loaded Subject_Subject5.xlsx: 4258 samples
+✓ Loaded Subject_Subject41.xlsx: 2847 samples
+✓ Loaded Subject_Subject16.xlsx: 4195 samples
+Available clients: ['Subject6', 'Subject39', 'Subject42', 'Subject15', 'Subject54', 'Subject23', 'Subject35', 'Subject19', 'Subject18', 'Subject34', 'Subject22', 'Subject14', 'Subject43', 'Subject38', 'Subject7', 'Subject25', 'Subject33', 'Subject48', 'Subject29', 'Subject44', 'Subject13', 'Subject52', 'Subject53', 'Subject12', 'Subject45', 'Subject28', 'Subject49', 'Subject32', 'Subject24', 'Subject31', 'Subject27', 'Subject50', 'Subject11', 'Subject46', 'Subject3', 'Subject47', 'Subject10', 'Subject51', 'Subject26', 'Subject30', 'Subject17', 'Subject40', 'Subject4', 'Subject37', 'Subject8', 'Subject21', 'Subject20', 'Subject9', 'Subject36', 'Subject5', 'Subject41', 'Subject16']
+=== Starting File-Based Federated Learning Benchmark ===
+Available subjects: 52
+Strategies: ['fedavg', 'fedprox', 'fedsgd', 'fedclusterproxxai']
+
+--- Running FedAvg ---
+Running fedavg strategy...
+Running 30 rounds with 52 clients
+Client Subject6: 3042 train, 761 val samples
+Client Subject39: 2940 train, 736 val samples
+Client Subject42: 3199 train, 800 val samples
+Client Subject15: 3431 train, 858 val samples
+Client Subject54: 3295 train, 824 val samples
+Client Subject23: 3252 train, 813 val samples
+Client Subject35: 3228 train, 807 val samples
+Client Subject19: 5730 train, 1433 val samples
+Client Subject18: 2880 train, 720 val samples
+Client Subject34: 3265 train, 817 val samples
+Round 1/30
+  Round 1 - Loss: 0.0596
+Round 2/30
+  Round 2 - Loss: 0.0367
+Round 3/30
+  Round 3 - Loss: 0.0403
+Round 4/30
+  Round 4 - Loss: 0.0328
+Round 5/30
+  Round 5 - Loss: 0.0304
+Round 6/30
+  Round 6 - Loss: 0.0312
+Round 7/30
+  Round 7 - Loss: 0.0311
+Round 8/30
+  Round 8 - Loss: 0.0307
+Round 9/30
+  Round 9 - Loss: 0.0303
+Round 10/30
+  Round 10 - Loss: 0.0286
+Round 11/30
+  Round 11 - Loss: 0.0267
+Round 12/30
+  Round 12 - Loss: 0.0266
+Round 13/30
+  Round 13 - Loss: 0.0268
+Round 14/30
+  Round 14 - Loss: 0.0256
+Round 15/30
+  Round 15 - Loss: 0.0252
+Round 16/30
+  Round 16 - Loss: 0.0250
+Round 17/30
+  Round 17 - Loss: 0.0245
+Round 18/30
+  Round 18 - Loss: 0.0241
+Round 19/30
+  Round 19 - Loss: 0.0239
+Round 20/30
+  Round 20 - Loss: 0.0239
+Round 21/30
+  Round 21 - Loss: 0.0236
+Round 22/30
+  Round 22 - Loss: 0.0226
+Round 23/30
+  Round 23 - Loss: 0.0232
+Round 24/30
+  Round 24 - Loss: 0.0240
+Round 25/30
+  Round 25 - Loss: 0.0232
+Round 26/30
+  Round 26 - Loss: 0.0236
+Round 27/30
+  Round 27 - Loss: 0.0233
+Round 28/30
+  Round 28 - Loss: 0.0234
+Round 29/30
+  Round 29 - Loss: 0.0239
+Round 30/30
+  Round 30 - Loss: 0.0231
+  Results saved to experiments/cgm_fl_benchmark/fedavg/results/results.json
+
+--- Running FedProx ---
+Running fedprox strategy...
+Running 30 rounds with 52 clients
+Client Subject6: 3042 train, 761 val samples
+Client Subject39: 2940 train, 736 val samples
+Client Subject42: 3199 train, 800 val samples
+Client Subject15: 3431 train, 858 val samples
+Client Subject54: 3295 train, 824 val samples
+Client Subject23: 3252 train, 813 val samples
+Client Subject35: 3228 train, 807 val samples
+Client Subject19: 5730 train, 1433 val samples
+Client Subject18: 2880 train, 720 val samples
+Client Subject34: 3265 train, 817 val samples
+Round 1/30
+  Round 1 - Loss: 0.0729
+Round 2/30
+  Round 2 - Loss: 0.0509
+Round 3/30
+  Round 3 - Loss: 0.0384
+Round 4/30
+  Round 4 - Loss: 0.0317
+Round 5/30
+  Round 5 - Loss: 0.0289
+Round 6/30
+  Round 6 - Loss: 0.0275
+Round 7/30
+  Round 7 - Loss: 0.0264
+Round 8/30
+  Round 8 - Loss: 0.0254
+Round 9/30
+  Round 9 - Loss: 0.0244
+Round 10/30
+  Round 10 - Loss: 0.0226
+Round 11/30
+  Round 11 - Loss: 0.0224
+Round 12/30
+  Round 12 - Loss: 0.0217
+Round 13/30
+  Round 13 - Loss: 0.0217
+Round 14/30
+  Round 14 - Loss: 0.0210
+Round 15/30
+  Round 15 - Loss: 0.0217
+Round 16/30
+  Round 16 - Loss: 0.0207
+Round 17/30
+  Round 17 - Loss: 0.0213
+Round 18/30
+  Round 18 - Loss: 0.0206
+Round 19/30
+  Round 19 - Loss: 0.0204
+Round 20/30
+  Round 20 - Loss: 0.0209
+Round 21/30
+  Round 21 - Loss: 0.0205
+Round 22/30
+  Round 22 - Loss: 0.0197
+Round 23/30
+  Round 23 - Loss: 0.0198
+Round 24/30
+  Round 24 - Loss: 0.0195
+Round 25/30
+  Round 25 - Loss: 0.0214
+Round 26/30
+  Round 26 - Loss: 0.0206
+Round 27/30
+  Round 27 - Loss: 0.0207
+Round 28/30
+  Round 28 - Loss: 0.0203
+Round 29/30
+  Round 29 - Loss: 0.0209
+Round 30/30
+  Round 30 - Loss: 0.0200
+  Results saved to experiments/cgm_fl_benchmark/fedprox/results/results.json
+
+--- Running FedSGD ---
+Running fedsgd strategy...
+Running 30 rounds with 52 clients
+Client Subject6: 3042 train, 761 val samples
+Client Subject39: 2940 train, 736 val samples
+Client Subject42: 3199 train, 800 val samples
+Client Subject15: 3431 train, 858 val samples
+Client Subject54: 3295 train, 824 val samples
+Client Subject23: 3252 train, 813 val samples
+Client Subject35: 3228 train, 807 val samples
+Client Subject19: 5730 train, 1433 val samples
+Client Subject18: 2880 train, 720 val samples
+Client Subject34: 3265 train, 817 val samples
+Round 1/30
+  Round 1 - Loss: 0.0853
+Round 2/30
+  Round 2 - Loss: 0.0708
+Round 3/30
+  Round 3 - Loss: 0.0478
+Round 4/30
+  Round 4 - Loss: 0.0401
+Round 5/30
+  Round 5 - Loss: 0.0363
+Round 6/30
+  Round 6 - Loss: 0.0323
+Round 7/30
+  Round 7 - Loss: 0.0321
+Round 8/30
+  Round 8 - Loss: 0.0276
+Round 9/30
+  Round 9 - Loss: 0.0265
+Round 10/30
+  Round 10 - Loss: 0.0253
+Round 11/30
+  Round 11 - Loss: 0.0240
+Round 12/30
+  Round 12 - Loss: 0.0246
+Round 13/30
+  Round 13 - Loss: 0.0239
+Round 14/30
+  Round 14 - Loss: 0.0225
+Round 15/30
+  Round 15 - Loss: 0.0220
+Round 16/30
+  Round 16 - Loss: 0.0223
+Round 17/30
+  Round 17 - Loss: 0.0219
+Round 18/30
+  Round 18 - Loss: 0.0230
+Round 19/30
+  Round 19 - Loss: 0.0210
+Round 20/30
+  Round 20 - Loss: 0.0228
+Round 21/30
+  Round 21 - Loss: 0.0215
+Round 22/30
+  Round 22 - Loss: 0.0222
+Round 23/30
+  Round 23 - Loss: 0.0213
+Round 24/30
+  Round 24 - Loss: 0.0217
+Round 25/30
+  Round 25 - Loss: 0.0218
+Round 26/30
+  Round 26 - Loss: 0.0218
+Round 27/30
+  Round 27 - Loss: 0.0221
+Round 28/30
+  Round 28 - Loss: 0.0215
+Round 29/30
+  Round 29 - Loss: 0.0209
+Round 30/30
+  Round 30 - Loss: 0.0207
+  Results saved to experiments/cgm_fl_benchmark/fedsgd/results/results.json
+
+--- Running FedClusterProxXAI ---
+Running fedclusterproxxai strategy...
+Running 30 rounds with 52 clients
+Client Subject6: 3042 train, 761 val samples
+Client Subject39: 2940 train, 736 val samples
+Client Subject42: 3199 train, 800 val samples
+Client Subject15: 3431 train, 858 val samples
+Client Subject54: 3295 train, 824 val samples
+Client Subject23: 3252 train, 813 val samples
+Client Subject35: 3228 train, 807 val samples
+Client Subject19: 5730 train, 1433 val samples
+Client Subject18: 2880 train, 720 val samples
+Client Subject34: 3265 train, 817 val samples
+Round 1/30
+  Round 1 - Loss: 0.0594
+Round 2/30
+  Round 2 - Loss: 0.0468
+Round 3/30
+  Round 3 - Loss: 0.0398
+Round 4/30
+  Round 4 - Loss: 0.0342
+Round 5/30
+  Round 5 - Loss: 0.0303
+Round 6/30
+  Round 6 - Loss: 0.0289
+Round 7/30
+  Round 7 - Loss: 0.0263
+Round 8/30
+  Round 8 - Loss: 0.0246
+Round 9/30
+  Round 9 - Loss: 0.0245
+Round 10/30
+  Round 10 - Loss: 0.0230
+Round 11/30
+  Round 11 - Loss: 0.0234
+Round 12/30
+  Round 12 - Loss: 0.0230
+Round 13/30
+  Round 13 - Loss: 0.0219
+Round 14/30
+  Round 14 - Loss: 0.0221
+Round 15/30
+  Round 15 - Loss: 0.0229
+Round 16/30
+  Round 16 - Loss: 0.0217
+Round 17/30
+  Round 17 - Loss: 0.0213
+Round 18/30
+  Round 18 - Loss: 0.0215
+Round 19/30
+  Round 19 - Loss: 0.0208
+Round 20/30
+  Round 20 - Loss: 0.0219
+Round 21/30
+  Round 21 - Loss: 0.0217
+Round 22/30
+  Round 22 - Loss: 0.0213
+Round 23/30
+  Round 23 - Loss: 0.0206
+Round 24/30
+  Round 24 - Loss: 0.0212
+Round 25/30
+  Round 25 - Loss: 0.0206
+Round 26/30
+  Round 26 - Loss: 0.0204
+Round 27/30
+  Round 27 - Loss: 0.0203
+Round 28/30
+  Round 28 - Loss: 0.0203
+Round 29/30
+  Round 29 - Loss: 0.0203
+Round 30/30
+  Round 30 - Loss: 0.0200
+  Results saved to experiments/cgm_fl_benchmark/fedclusterproxxai/results/results.json
+  Cluster metadata saved to experiments/cgm_fl_benchmark/fedclusterproxxai/models/cluster_metadata.json
+
+=== Benchmark Completed ===
+
+==========================================================================================
+COMPARATIVE RESULTS SUMMARY
+==========================================================================================
+
+Strategy: FedAvg
+Execution Time: 19.61s
+
+Performance Metrics:
+  Final Loss: 0.0231
+  MAE: 0.1064
+  RMSE: 0.1351
+
+XAI Metrics:
+  Importance Score: 0.0150
+  Stability Score: 0.9664
+  Faithfulness Score: 0.1655
+  Overall XAI Score: 0.3823
+  Prediction Stability: 0.0034
+  Local Stability: 0.0009
+  Faithfulness: 0.0331
+  Monotonicity: -0.3100
+------------------------------------------------------------------------------------------
+
+Strategy: FedProx
+Execution Time: 246.15s
+
+Performance Metrics:
+  Final Loss: 0.0200
+  MAE: 0.1016
+  RMSE: 0.1273
+
+XAI Metrics:
+  Importance Score: 0.0204
+  Stability Score: 0.9467
+  Faithfulness Score: 0.2949
+  Overall XAI Score: 0.4206
+  Prediction Stability: 0.0053
+  Local Stability: 0.0014
+  Faithfulness: 0.0590
+  Monotonicity: 0.9940
+------------------------------------------------------------------------------------------
+
+Strategy: FedSGD
+Execution Time: 18.58s
+
+Performance Metrics:
+  Final Loss: 0.0207
+  MAE: 0.1031
+  RMSE: 0.1293
+
+XAI Metrics:
+  Importance Score: 0.0148
+  Stability Score: 0.9519
+  Faithfulness Score: 0.1580
+  Overall XAI Score: 0.3749
+  Prediction Stability: 0.0048
+  Local Stability: 0.0009
+  Faithfulness: 0.0316
+  Monotonicity: -0.3146
+------------------------------------------------------------------------------------------
+
+Strategy: FedClusterProxXAI
+Execution Time: 244.03s
+
+Performance Metrics:
+  Final Loss: 0.0200
+  MAE: 0.1016
+  RMSE: 0.1275
+
+XAI Metrics:
+  Importance Score: 0.0196
+  Stability Score: 0.9448
+  Faithfulness Score: 0.2717
+  Overall XAI Score: 0.4120
+  Prediction Stability: 0.0055
+  Local Stability: 0.0013
+  Faithfulness: 0.0543
+  Monotonicity: 0.3267
+------------------------------------------------------------------------------------------

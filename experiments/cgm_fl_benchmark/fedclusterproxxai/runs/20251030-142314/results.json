@@ -1,0 +1,731 @@
+{
+  "strategy_name": "FedClusterProxXAI",
+  "history": {
+    "losses": [
+      0.12965960676471391,
+      0.18061178674300513,
+      0.09400601809223492,
+      0.0766769361992677,
+      0.05932319847246011,
+      0.04182507935911417,
+      0.03721197166790565,
+      0.02876447296390931,
+      0.027129823962847393,
+      0.025670775212347507,
+      0.025174562198420364,
+      0.024249082431197166,
+      0.02459335109839837,
+      0.02609830970565478,
+      0.03477171684304873,
+      0.03541851912935575,
+      0.039078329068919025
+    ],
+    "metrics": [
+      {
+        "mae": 0.3091770311196645,
+        "rmse": 0.34279500527424656,
+        "feature_importance_mean": 0.007464842560390632,
+        "feature_importance_std": 0.004232665291056037,
+        "feature_importance_max": 0.01877610106021166,
+        "prediction_stability": 0.00030556572248848776,
+        "local_stability": 0.001,
+        "prediction_consistency": 0.9996945584681504,
+        "faithfulness": 0.001,
+        "monotonicity": 0.5,
+        "importance_score": 0.3436208665370941,
+        "stability_score": 0.994005378790216,
+        "faithfulness_score": 0.05987626322824376,
+        "monotonicity_score": 0.75,
+        "xai_score": 0.48205048362715536
+      },
+      {
+        "mae": 0.38760727643966675,
+        "rmse": 0.41220489469628596,
+        "feature_importance_mean": 0.00472829258069396,
+        "feature_importance_std": 0.003084644442424178,
+        "feature_importance_max": 0.013632367054621378,
+        "prediction_stability": 0.0001087114619789645,
+        "local_stability": 0.001,
+        "prediction_consistency": 0.9998913005066467,
+        "faithfulness": 0.001,
+        "monotonicity": 0.5,
+        "importance_score": 0.31110576788584393,
+        "stability_score": 0.9941854514626258,
+        "faithfulness_score": 0.1122077094614045,
+        "monotonicity_score": 0.75,
+        "xai_score": 0.48804040606983096
+      },
+      {
+        "mae": 0.2569085856278737,
+        "rmse": 0.2901716995464984,
+        "feature_importance_mean": 0.0038208244368433952,
+        "feature_importance_std": 0.0028304463097204766,
+        "feature_importance_max": 0.011396143895884355,
+        "prediction_stability": 0.0001,
+        "local_stability": 0.001,
+        "prediction_consistency": 0.9999000099990001,
+        "faithfulness": 0.001,
+        "monotonicity": 0.5,
+        "importance_score": 0.31702568133672077,
+        "stability_score": 0.994611309084942,
+        "faithfulness_score": 0.10777381830116152,
+        "monotonicity_score": 0.75,
+        "xai_score": 0.48859267716260013
+      },
+      {
+        "mae": 0.22544871270656586,
+        "rmse": 0.2601012409328425,
+        "feature_importance_mean": 0.003637602087110281,
+        "feature_importance_std": 0.0028008879938473306,
+        "feature_importance_max": 0.011681655421853065,
+        "prediction_stability": 0.0001,
+        "local_stability": 0.001,
+        "prediction_consistency": 0.9999000099990001,
+        "faithfulness": 0.001,
+        "monotonicity": 0.5,
+        "importance_score": 0.27444759011268616,
+        "stability_score": 0.9935682600924145,
+        "faithfulness_score": 0.12863479815170945,
+        "monotonicity_score": 0.75,
+        "xai_score": 0.4818167815024223
+      },
+      {
+        "mae": 0.1897654508550962,
+        "rmse": 0.22537278531770777,
+        "feature_importance_mean": 0.004177101422101259,
+        "feature_importance_std": 0.0030384954685966172,
+        "feature_importance_max": 0.013622273690998554,
+        "prediction_stability": 0.0001,
+        "local_stability": 0.001,
+        "prediction_consistency": 0.9999000099990001,
+        "faithfulness": 0.001,
+        "monotonicity": 0.5,
+        "importance_score": 0.2832009643316269,
+        "stability_score": 0.9948651660886022,
+        "faithfulness_score": 0.10269667822795557,
+        "monotonicity_score": 0.75,
+        "xai_score": 0.47698558429002524
+      },
+      {
+        "mae": 0.15121282637119293,
+        "rmse": 0.18519579352212254,
+        "feature_importance_mean": 0.005745372424523036,
+        "feature_importance_std": 0.0036069839261472225,
+        "feature_importance_max": 0.017170713283121586,
+        "prediction_stability": 0.00010138552823724845,
+        "local_stability": 0.001,
+        "prediction_consistency": 0.9998986247535843,
+        "faithfulness": 0.001,
+        "monotonicity": 0.5,
+        "importance_score": 0.29909569025039673,
+        "stability_score": 0.9962543267616852,
+        "faithfulness_score": 0.07409048295218683,
+        "monotonicity_score": 0.75,
+        "xai_score": 0.47351943365119636
+      },
+      {
+        "mae": 0.140205388267835,
+        "rmse": 0.1735046939502075,
+        "feature_importance_mean": 0.006701405004908641,
+        "feature_importance_std": 0.0042890570281694336,
+        "feature_importance_max": 0.02100377281506856,
+        "prediction_stability": 0.00011251694303161153,
+        "local_stability": 0.001,
+        "prediction_consistency": 0.9998874960288445,
+        "faithfulness": 0.001,
+        "monotonicity": 0.5,
+        "importance_score": 0.2949911157290141,
+        "stability_score": 0.9964275611877733,
+        "faithfulness_score": 0.06493608982728559,
+        "monotonicity_score": 0.75,
+        "xai_score": 0.4695850519638332
+      },
+      {
+        "mae": 0.12387721488873164,
+        "rmse": 0.15473462825690656,
+        "feature_importance_mean": 0.007929573146005472,
+        "feature_importance_std": 0.005203291696185867,
+        "feature_importance_max": 0.023978999505440395,
+        "prediction_stability": 0.00012998929182843615,
+        "local_stability": 0.001,
+        "prediction_consistency": 0.9998700294011514,
+        "faithfulness": 0.001,
+        "monotonicity": 0.5,
+        "importance_score": 0.31130537390708923,
+        "stability_score": 0.9963724976547189,
+        "faithfulness_score": 0.059440057121265766,
+        "monotonicity_score": 0.75,
+        "xai_score": 0.4728167537221862
+      },
+      {
+        "mae": 0.12228977680206299,
+        "rmse": 0.15235076905651898,
+        "feature_importance_mean": 0.009050937369465828,
+        "feature_importance_std": 0.0058484673500061035,
+        "feature_importance_max": 0.02616782175997893,
+        "prediction_stability": 0.0001459624004550278,
+        "local_stability": 0.001,
+        "prediction_consistency": 0.9998540631244989,
+        "faithfulness": 0.001,
+        "monotonicity": 0.5,
+        "importance_score": 0.3256546159585317,
+        "stability_score": 0.9965228269449179,
+        "faithfulness_score": 0.05175852310130374,
+        "monotonicity_score": 0.75,
+        "xai_score": 0.4748546484541801
+      },
+      {
+        "mae": 0.11926281948884328,
+        "rmse": 0.14869578823696905,
+        "feature_importance_mean": 0.011163729863862196,
+        "feature_importance_std": 0.0070226306561380625,
+        "feature_importance_max": 0.03170856895546118,
+        "prediction_stability": 0.00020305523102482161,
+        "local_stability": 0.001,
+        "prediction_consistency": 0.9997969932681535,
+        "faithfulness": 0.001,
+        "monotonicity": 0.5,
+        "importance_score": 0.33217304944992065,
+        "stability_score": 0.996173501790779,
+        "faithfulness_score": 0.04107690759376103,
+        "monotonicity_score": 0.75,
+        "xai_score": 0.47351836256079927
+      },
+      {
+        "mae": 0.11879909286896388,
+        "rmse": 0.14799693779363765,
+        "feature_importance_mean": 0.011808993915716806,
+        "feature_importance_std": 0.00749575812369585,
+        "feature_importance_max": 0.032705447946985565,
+        "prediction_stability": 0.00021794824314614139,
+        "local_stability": 0.001,
+        "prediction_consistency": 0.9997821083086033,
+        "faithfulness": 0.001,
+        "monotonicity": 0.5,
+        "importance_score": 0.3483897348244985,
+        "stability_score": 0.9960690008055404,
+        "faithfulness_score": 0.03956660145310613,
+        "monotonicity_score": 0.75,
+        "xai_score": 0.4779041510846665
+      },
+      {
+        "mae": 0.1173647368947665,
+        "rmse": 0.14636853944150027,
+        "feature_importance_mean": 0.013551194531222185,
+        "feature_importance_std": 0.008246558563162884,
+        "feature_importance_max": 0.0359480424473683,
+        "prediction_stability": 0.00027163973657103876,
+        "local_stability": 0.001,
+        "prediction_consistency": 0.9997284497704615,
+        "faithfulness": 0.001,
+        "monotonicity": 0.5,
+        "importance_score": 0.3610582451025645,
+        "stability_score": 0.9956888818481101,
+        "faithfulness_score": 0.03578168552904214,
+        "monotonicity_score": 0.75,
+        "xai_score": 0.48047419965150945
+      },
+      {
+        "mae": 0.12014275044202805,
+        "rmse": 0.14988035363054278,
+        "feature_importance_mean": 0.01611974524954955,
+        "feature_importance_std": 0.010058270922551552,
+        "feature_importance_max": 0.0411103634784619,
+        "prediction_stability": 0.0003599830864307781,
+        "local_stability": 0.001,
+        "prediction_consistency": 0.9996401857906703,
+        "faithfulness": 0.001,
+        "monotonicity": 0.5,
+        "importance_score": 0.3764404356479645,
+        "stability_score": 0.9950703302143517,
+        "faithfulness_score": 0.030725330605375568,
+        "monotonicity_score": 0.75,
+        "xai_score": 0.4834173124295899
+      },
+      {
+        "mae": 0.11717669169108073,
+        "rmse": 0.14697602941953516,
+        "feature_importance_mean": 0.01765556540340185,
+        "feature_importance_std": 0.010675454201797644,
+        "feature_importance_max": 0.04393302152554194,
+        "prediction_stability": 0.0004509540061311175,
+        "local_stability": 0.001,
+        "prediction_consistency": 0.9995492958944953,
+        "faithfulness": 0.001,
+        "monotonicity": 0.5,
+        "importance_score": 0.39048081636428833,
+        "stability_score": 0.9944268304097749,
+        "faithfulness_score": 0.02765157079608894,
+        "monotonicity_score": 0.75,
+        "xai_score": 0.48654642375055684
+      },
+      {
+        "mae": 0.13763781388600668,
+        "rmse": 0.16785307495805468,
+        "feature_importance_mean": 0.020125361780325573,
+        "feature_importance_std": 0.011826250857363144,
+        "feature_importance_max": 0.04844806157052517,
+        "prediction_stability": 0.0005676941752123336,
+        "local_stability": 0.001,
+        "prediction_consistency": 0.9994327046554184,
+        "faithfulness": 0.001,
+        "monotonicity": 0.5,
+        "importance_score": 0.40872839093208313,
+        "stability_score": 0.9936975459727421,
+        "faithfulness_score": 0.02532355539627838,
+        "monotonicity_score": 0.75,
+        "xai_score": 0.49113997039169394
+      },
+      {
+        "mae": 0.13946375995874405,
+        "rmse": 0.1694697238028332,
+        "feature_importance_mean": 0.02005883026868105,
+        "feature_importance_std": 0.01219629387681683,
+        "feature_importance_max": 0.04931815341114998,
+        "prediction_stability": 0.0005723326661003133,
+        "local_stability": 0.001,
+        "prediction_consistency": 0.9994280551793674,
+        "faithfulness": 0.001,
+        "monotonicity": 0.5,
+        "importance_score": 0.374879648288091,
+        "stability_score": 0.9936416205205046,
+        "faithfulness_score": 0.024720637507022084,
+        "monotonicity_score": 0.75,
+        "xai_score": 0.48079049086866005
+      },
+      {
+        "mae": 0.14684841533501944,
+        "rmse": 0.17831813635932062,
+        "feature_importance_mean": 0.020037754749258358,
+        "feature_importance_std": 0.012835838055859009,
+        "feature_importance_max": 0.050106754526495934,
+        "prediction_stability": 0.000500109478404435,
+        "local_stability": 0.001,
+        "prediction_consistency": 0.9995001972373604,
+        "faithfulness": 0.001,
+        "monotonicity": 0.5,
+        "importance_score": 0.3830605049928029,
+        "stability_score": 0.9941898836571482,
+        "faithfulness_score": 0.02536705409711239,
+        "monotonicity_score": 0.75,
+        "xai_score": 0.48357573864126163
+      }
+    ],
+    "cluster_assignments": [
+      {
+        "round": 1,
+        "assignments": {
+          "Subject54": 0,
+          "Subject42": 1,
+          "Subject39": 2,
+          "Subject15": 0,
+          "Subject6": 1
+        },
+        "cluster_sizes": [
+          2,
+          2,
+          1
+        ],
+        "static": true
+      },
+      {
+        "round": 2,
+        "assignments": {
+          "Subject54": 0,
+          "Subject42": 1,
+          "Subject39": 2,
+          "Subject15": 0,
+          "Subject6": 1
+        },
+        "cluster_sizes": [
+          2,
+          2,
+          1
+        ],
+        "static": true
+      },
+      {
+        "round": 3,
+        "assignments": {
+          "Subject54": 0,
+          "Subject42": 1,
+          "Subject39": 2,
+          "Subject15": 0,
+          "Subject6": 1
+        },
+        "cluster_sizes": [
+          2,
+          2,
+          1
+        ],
+        "static": true
+      },
+      {
+        "round": 4,
+        "assignments": {
+          "Subject54": 0,
+          "Subject42": 1,
+          "Subject39": 2,
+          "Subject15": 0,
+          "Subject6": 1
+        },
+        "cluster_sizes": [
+          2,
+          2,
+          1
+        ],
+        "static": true
+      },
+      {
+        "round": 5,
+        "assignments": {
+          "Subject54": 0,
+          "Subject42": 1,
+          "Subject39": 2,
+          "Subject15": 0,
+          "Subject6": 1
+        },
+        "cluster_sizes": [
+          2,
+          2,
+          1
+        ],
+        "static": true
+      },
+      {
+        "round": 6,
+        "assignments": {
+          "Subject54": 0,
+          "Subject42": 1,
+          "Subject39": 2,
+          "Subject15": 0,
+          "Subject6": 1
+        },
+        "cluster_sizes": [
+          2,
+          2,
+          1
+        ],
+        "static": true
+      },
+      {
+        "round": 7,
+        "assignments": {
+          "Subject54": 0,
+          "Subject42": 1,
+          "Subject39": 2,
+          "Subject15": 0,
+          "Subject6": 1
+        },
+        "cluster_sizes": [
+          2,
+          2,
+          1
+        ],
+        "static": true
+      },
+      {
+        "round": 8,
+        "assignments": {
+          "Subject54": 0,
+          "Subject42": 1,
+          "Subject39": 2,
+          "Subject15": 0,
+          "Subject6": 1
+        },
+        "cluster_sizes": [
+          2,
+          2,
+          1
+        ],
+        "static": true
+      },
+      {
+        "round": 9,
+        "assignments": {
+          "Subject54": 0,
+          "Subject42": 1,
+          "Subject39": 2,
+          "Subject15": 0,
+          "Subject6": 1
+        },
+        "cluster_sizes": [
+          2,
+          2,
+          1
+        ],
+        "static": true
+      },
+      {
+        "round": 10,
+        "assignments": {
+          "Subject54": 0,
+          "Subject42": 1,
+          "Subject39": 2,
+          "Subject15": 0,
+          "Subject6": 1
+        },
+        "cluster_sizes": [
+          2,
+          2,
+          1
+        ],
+        "static": true
+      },
+      {
+        "round": 11,
+        "assignments": {
+          "Subject54": 0,
+          "Subject42": 1,
+          "Subject39": 2,
+          "Subject15": 0,
+          "Subject6": 1
+        },
+        "cluster_sizes": [
+          2,
+          2,
+          1
+        ],
+        "static": true
+      },
+      {
+        "round": 12,
+        "assignments": {
+          "Subject54": 0,
+          "Subject42": 1,
+          "Subject39": 2,
+          "Subject15": 0,
+          "Subject6": 1
+        },
+        "cluster_sizes": [
+          2,
+          2,
+          1
+        ],
+        "static": true
+      },
+      {
+        "round": 13,
+        "assignments": {
+          "Subject54": 0,
+          "Subject42": 1,
+          "Subject39": 2,
+          "Subject15": 0,
+          "Subject6": 1
+        },
+        "cluster_sizes": [
+          2,
+          2,
+          1
+        ],
+        "static": true
+      },
+      {
+        "round": 14,
+        "assignments": {
+          "Subject54": 0,
+          "Subject42": 1,
+          "Subject39": 2,
+          "Subject15": 0,
+          "Subject6": 1
+        },
+        "cluster_sizes": [
+          2,
+          2,
+          1
+        ],
+        "static": true
+      },
+      {
+        "round": 15,
+        "assignments": {
+          "Subject54": 0,
+          "Subject42": 1,
+          "Subject39": 2,
+          "Subject15": 0,
+          "Subject6": 1
+        },
+        "cluster_sizes": [
+          2,
+          2,
+          1
+        ],
+        "static": true
+      },
+      {
+        "round": 16,
+        "assignments": {
+          "Subject54": 0,
+          "Subject42": 1,
+          "Subject39": 2,
+          "Subject15": 0,
+          "Subject6": 1
+        },
+        "cluster_sizes": [
+          2,
+          2,
+          1
+        ],
+        "static": true
+      },
+      {
+        "round": 17,
+        "assignments": {
+          "Subject54": 0,
+          "Subject42": 1,
+          "Subject39": 2,
+          "Subject15": 0,
+          "Subject6": 1
+        },
+        "cluster_sizes": [
+          2,
+          2,
+          1
+        ],
+        "static": true
+      }
+    ],
+    "early_stopping": {
+      "stopped": true,
+      "round": 17,
+      "best_loss": 0.024249082431197166,
+      "patience": 5,
+      "min_delta": 0.001
+    }
+  },
+  "parameters": {
+    "num_clusters": 3
+  },
+  "subjects_used": [
+    "Subject6",
+    "Subject39",
+    "Subject42",
+    "Subject15",
+    "Subject54",
+    "Subject23",
+    "Subject35",
+    "Subject19",
+    "Subject18",
+    "Subject34",
+    "Subject22",
+    "Subject14",
+    "Subject43",
+    "Subject38",
+    "Subject7",
+    "Subject25",
+    "Subject33",
+    "Subject48",
+    "Subject29",
+    "Subject44",
+    "Subject13",
+    "Subject52",
+    "Subject53",
+    "Subject12",
+    "Subject45",
+    "SUB001",
+    "Subject28",
+    "Subject49",
+    "Subject32",
+    "Subject24",
+    "Subject31",
+    "Subject27",
+    "Subject50",
+    "Subject11",
+    "Subject46",
+    "SUB002",
+    "SUB003",
+    "Subject3",
+    "Subject47",
+    "Subject10",
+    "Subject51",
+    "Subject26",
+    "Subject30",
+    "Subject17",
+    "Subject40",
+    "Subject4",
+    "SUB004",
+    "Subject37",
+    "Subject8",
+    "Subject21",
+    "Subject20",
+    "Subject9",
+    "Subject36",
+    "SUB005",
+    "Subject5",
+    "Subject41",
+    "Subject16"
+  ],
+  "cluster_losses_history": {
+    "0": [
+      0.04323023371398449,
+      0.0256585581228137,
+      0.020969892852008343,
+      0.02266863500699401,
+      0.02408222993835807,
+      0.02269065147265792,
+      0.02223049011081457,
+      0.02279867557808757,
+      0.021663190331310034,
+      0.02048064023256302,
+      0.02133347326889634,
+      0.020326008088886738,
+      0.023642868967726827,
+      0.020990163553506136,
+      0.021499508060514927,
+      0.024438725551590323,
+      0.020982067566365004
+    ],
+    "1": [
+      0.046087800059467554,
+      0.027595770079642534,
+      0.03257454140111804,
+      0.026397719979286194,
+      0.027895090635865927,
+      0.02697924943640828,
+      0.025588717311620712,
+      0.023691141977906227,
+      0.02253994531929493,
+      0.02380493376404047,
+      0.023545291740447283,
+      0.02263062074780464,
+      0.022696937434375286,
+      0.02352056745439768,
+      0.02157130604609847,
+      0.020564666017889977,
+      0.021718164905905724
+    ],
+    "2": [
+      0.055138710886240005,
+      0.007149264216423035,
+      0.006475812755525112,
+      0.006788742262870073,
+      0.0057098157703876495,
+      0.005710109602659941,
+      0.007276185322552919,
+      0.00730112986639142,
+      0.007668395526707172,
+      0.0075287651270627975,
+      0.0074743847362697124,
+      0.009022288955748081,
+      0.00820108875632286,
+      0.009324165992438793,
+      0.00819810014218092,
+      0.008551395498216152,
+      0.008046867325901985
+    ]
+  },
+  "cluster_info": {
+    "num_clusters": 3,
+    "final_assignments": {
+      "Subject54": 0,
+      "Subject42": 1,
+      "Subject39": 2,
+      "Subject15": 0,
+      "Subject6": 1
+    },
+    "assignment_history": [],
+    "reassignment_interval": 1000000000,
+    "static_clustering": false
+  },
+  "execution_time": 2020.4674670696259
+}

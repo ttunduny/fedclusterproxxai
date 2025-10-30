@@ -1,0 +1,18 @@
+{
+  "processing_date": "2025-10-30T12:36:05.205318",
+  "total_subjects_processed": 5,
+  "total_subjects_skipped": 0,
+  "skipped_subjects": [],
+  "prediction_horizon": 12,
+  "history_days": 15,
+  "min_samples_per_subject": 500,
+  "subjects_processed": [
+    "SUB001",
+    "SUB002",
+    "SUB003",
+    "SUB004",
+    "SUB005"
+  ],
+  "total_samples": 21545,
+  "average_samples_per_subject": 4309.0
+}

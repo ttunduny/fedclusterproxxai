@@ -1,0 +1,17 @@
+pycache/
+.py[cod]
+.class
+.pyo
+.venv/
+.env/
+.egg-info/
+dist/
+build/
+.ipynb_checkpoints/
+.DS_Store
+.venv/
+venv/
+env/
+.env
+.conda/
+.python-version
