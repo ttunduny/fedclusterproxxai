@@ -1,0 +1,111 @@
+{
+  "experiment_name": "cgm_fl_benchmark",
+  "experiment_dir": "experiments/cgm_fl_benchmark",
+  "random_seed": 42,
+  
+  "model_architecture": {
+    "type": "lstm",
+    "input_features": 20,
+    "hidden_units": [128, 64],
+    "dropout": 0.3,
+    "output_size": 1,
+    "activation": "relu"
+  },
+  
+  "training_parameters": {
+    "num_rounds": 50,
+    "local_epochs": 5,
+    "batch_size": 32,
+    "learning_rate": 0.001,
+    "optimizer": "adam",
+    "loss_function": "mse",
+    "early_stopping_patience": 10,
+    "min_delta": 0.001
+  },
+  
+  "federated_settings": {
+    "num_clients": 10,
+    "clients_per_round": 5,
+    "min_fit_clients": 3,
+    "min_evaluate_clients": 3,
+    "min_available_clients": 5,
+    "client_selection": "random"
+  },
+  
+  "strategies": [
+    {
+      "name": "fedavg",
+      "description": "Federated Averaging",
+      "parameters": {
+        "fraction_fit": 0.5,
+        "fraction_evaluate": 0.5
+      }
+    },
+    {
+      "name": "fedprox",
+      "description": "Federated Proximal",
+      "parameters": {
+        "fraction_fit": 0.5,
+        "fraction_evaluate": 0.5,
+        "proximal_mu": 0.1
+      }
+    },
+    {
+      "name": "fedsgd",
+      "description": "Federated Stochastic Gradient Descent",
+      "parameters": {
+        "fraction_fit": 1.0,
+        "fraction_evaluate": 1.0
+      }
+    },
+    {
+      "name": "fedclusterproxxai",
+      "description": "Federated Clustering with Proximal and Explainability",
+      "parameters": {
+        "fraction_fit": 0.5,
+        "fraction_evaluate": 0.5,
+        "proximal_mu": 0.1,
+        "num_clusters": 3,
+        "cluster_method": "hdbscan",
+        "reclustering_frequency": 5,
+        "similarity_threshold": 0.7,
+        "xai_weight": 0.2
+      }
+    }
+  ],
+  
+  "evaluation_metrics": [
+    "rmse",
+    "mae",
+    "mape",
+    "r2",
+    "clarke_grid_a",
+    "clarke_grid_b",
+    "time_lag"
+  ],
+  
+  "comparison_analysis": {
+    "statistical_tests": ["friedman", "wilcoxon"],
+    "significance_level": 0.05,
+    "visualization_types": [
+      "convergence_plot",
+      "metric_comparison",
+      "client_performance",
+      "cluster_analysis"
+    ]
+  },
+  
+  "logging": {
+    "log_level": "INFO",
+    "save_frequency": 1,
+    "save_model_checkpoints": true,
+    "save_client_histories": true
+  },
+  
+  "resources": {
+    "use_gpu": true,
+    "num_workers": 4,
+    "memory_limit_gb": 8
+  }
+}
+

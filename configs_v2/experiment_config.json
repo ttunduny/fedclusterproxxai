@@ -1,0 +1,312 @@
+{
+  "experiment_name": "cgm_fl_benchmark_v2_feature_optimized",
+  "experiment_dir": "experiments/cgm_fl_benchmark_v2",
+  "random_seed": 42,
+  "version": "2.0",
+  "description": "Feature-optimized CGM prediction based on comprehensive feature analysis",
+  
+  "feature_selection": {
+    "strategy": "core_24",
+    "core_features": [
+      "hour",
+      "hour_cos",
+      "hourly_baseline",
+      "hour_sin",
+      "roc_60min",
+      "current_glucose",
+      "roc_30min",
+      "min_6h",
+      "max_6h",
+      "mean_24h",
+      "max_12h",
+      "std_3h",
+      "mean_12h",
+      "std_12h",
+      "min_12h",
+      "min_24h",
+      "max_3h",
+      "std_6h",
+      "max_24h",
+      "std_1h",
+      "std_24h",
+      "in_tight_range",
+      "is_hyperglycemic",
+      "deviation_from_recent_trend"
+    ],
+    "alternative_sets": {
+      "top_10": [
+        "current_glucose",
+        "hour",
+        "roc_60min",
+        "hourly_baseline",
+        "in_tight_range",
+        "deviation_from_recent_trend",
+        "is_hyperglycemic",
+        "max_6h",
+        "min_6h",
+        "roc_30min"
+      ],
+      "temporal_focused": [
+        "hour",
+        "hour_cos",
+        "hourly_baseline",
+        "hour_sin",
+        "current_glucose",
+        "roc_60min",
+        "roc_30min",
+        "deviation_from_recent_trend",
+        "in_tight_range",
+        "is_hyperglycemic"
+      ],
+      "all_features": "use_all"
+    },
+    "remove_redundant": true,
+    "redundant_features": [
+      "deviation_from_daily_mean",
+      "in_target_range"
+    ],
+    "enable_interactions": true,
+    "interaction_features": [
+      "hour_x_glucose",
+      "hour_cos_x_glucose",
+      "roc60_x_current",
+      "hyper_x_deviation"
+    ]
+  },
+  
+  "data_config": {
+    "valid_subjects_count": 47,
+    "excluded_subjects": [
+      "Subject13",
+      "Subject14",
+      "Subject15",
+      "Subject18",
+      "Subject21",
+      "Subject25",
+      "Subject32",
+      "Subject44",
+      "Subject5",
+      "Subject7"
+    ],
+    "robust_scaling": true,
+    "outlier_handling": "keep_with_robust_scaling",
+    "validation_split": 0.2,
+    "test_split": 0.2
+  },
+  
+  "model_architecture": {
+    "primary": {
+      "type": "lstm",
+      "input_features": 24,
+      "hidden_units": [128, 64],
+      "dropout": 0.3,
+      "output_size": 1,
+      "activation": "relu",
+      "optimization_rationale": "Captures temporal patterns (LSTM Layer 1: 128) and short-term dependencies (LSTM Layer 2: 64)"
+    },
+    "alternative": {
+      "type": "transformer_enhanced",
+      "input_features": 24,
+      "transformer_layers": 2,
+      "num_heads": 4,
+      "d_model": 64,
+      "dense_units": [64, 32],
+      "dropout": 0.3,
+      "output_size": 1
+    },
+    "baseline": {
+      "type": "lstm",
+      "input_features": 42,
+      "hidden_units": [128, 64],
+      "dropout": 0.3,
+      "output_size": 1,
+      "activation": "relu"
+    }
+  },
+  
+  "training_parameters": {
+    "num_rounds": 60,
+    "local_epochs": 5,
+    "batch_size": 32,
+    "learning_rate": 0.001,
+    "optimizer": "adam",
+    "loss_function": "mse",
+    "early_stopping_patience": 10,
+    "min_delta": 0.001,
+    "regularization": {
+      "l2": 0.0001,
+      "dropout": 0.3
+    }
+  },
+  
+  "federated_settings": {
+    "num_clients": 47,
+    "clients_per_round": 10,
+    "min_fit_clients": 8,
+    "min_evaluate_clients": 8,
+    "min_available_clients": 10,
+    "client_selection": "random",
+    "stratify_by_pattern": false
+  },
+  
+  "strategies": [
+    {
+      "name": "fedavg",
+      "description": "Federated Averaging with Core Features",
+      "enabled": true,
+      "parameters": {
+        "fraction_fit": 0.5,
+        "fraction_evaluate": 0.5
+      }
+    },
+    {
+      "name": "fedprox",
+      "description": "Federated Proximal with Core Features",
+      "enabled": true,
+      "parameters": {
+        "fraction_fit": 0.5,
+        "fraction_evaluate": 0.5,
+        "proximal_mu": 0.1
+      }
+    },
+    {
+      "name": "fedsgd",
+      "description": "Federated Stochastic Gradient Descent with Core Features",
+      "enabled": false,
+      "parameters": {
+        "fraction_fit": 1.0,
+        "fraction_evaluate": 1.0
+      }
+    },
+    {
+      "name": "fedclusterproxxai",
+      "description": "Federated Clustering with Proximal and Explainability - Feature Optimized",
+      "enabled": true,
+      "parameters": {
+        "fraction_fit": 0.5,
+        "fraction_evaluate": 0.5,
+        "proximal_mu": 0.1,
+        "num_clusters": 3,
+        "cluster_method": "hdbscan",
+        "reclustering_frequency": 5,
+        "similarity_threshold": 0.7,
+        "xai_weight": 0.2,
+        "adaptive_feature_selection": true
+      }
+    }
+  ],
+  
+  "evaluation_metrics": [
+    "rmse",
+    "mae",
+    "mape",
+    "r2",
+    "clarke_grid_a",
+    "clarke_grid_b",
+    "time_lag",
+    "time_in_range_accuracy",
+    "hypoglycemia_sensitivity",
+    "hyperglycemia_sensitivity"
+  ],
+  
+  "experiments": [
+    {
+      "name": "feature_set_comparison",
+      "description": "Compare different feature sets",
+      "conditions": [
+        {"name": "all_42_features", "features": "all_features"},
+        {"name": "core_24_features", "features": "core_24"},
+        {"name": "top_10_features", "features": "top_10"},
+        {"name": "temporal_focused", "features": "temporal_focused"}
+      ]
+    },
+    {
+      "name": "redundancy_impact",
+      "description": "Evaluate impact of removing redundant features",
+      "conditions": [
+        {"name": "with_redundant", "remove_redundant": false},
+        {"name": "without_redundant", "remove_redundant": true}
+      ]
+    },
+    {
+      "name": "architecture_comparison",
+      "description": "Compare model architectures",
+      "conditions": [
+        {"name": "lstm_optimized", "architecture": "primary"},
+        {"name": "transformer_enhanced", "architecture": "alternative"},
+        {"name": "lstm_baseline", "architecture": "baseline"}
+      ]
+    },
+    {
+      "name": "fl_strategy_comparison",
+      "description": "Compare federated learning strategies",
+      "conditions": [
+        {"name": "fedavg_core", "strategy": "fedavg"},
+        {"name": "fedprox_core", "strategy": "fedprox"},
+        {"name": "fedclusterproxxai_core", "strategy": "fedclusterproxxai"}
+      ]
+    }
+  ],
+  
+  "comparison_analysis": {
+    "statistical_tests": ["friedman", "wilcoxon"],
+    "significance_level": 0.05,
+    "visualization_types": [
+      "convergence_plot",
+      "metric_comparison",
+      "client_performance",
+      "cluster_analysis",
+      "feature_importance_comparison"
+    ]
+  },
+  
+  "validation": {
+    "method": "subject_level_kfold",
+    "k_folds": 5,
+    "holdout_subjects": 10,
+    "temporal_validation": true,
+    "respect_time_order": true
+  },
+  
+  "feature_analysis_validation": {
+    "compute_shap_values": true,
+    "compute_lime_explanations": true,
+    "compare_statistical_vs_learned_importance": true,
+    "feature_importance_threshold": 0.7
+  },
+  
+  "logging": {
+    "log_level": "INFO",
+    "save_frequency": 1,
+    "save_model_checkpoints": true,
+    "save_client_histories": true,
+    "log_feature_importance": true
+  },
+  
+  "resources": {
+    "use_gpu": true,
+    "num_workers": 4,
+    "memory_limit_gb": 8
+  },
+  
+  "success_criteria": {
+    "rmse_target": 20,
+    "rmse_stretch_goal": 15,
+    "mae_target": 15,
+    "mae_stretch_goal": 12,
+    "tir_accuracy_target": 0.80,
+    "tir_accuracy_stretch": 0.85,
+    "training_time_reduction": 0.20,
+    "feature_count": 24
+  },
+  
+  "metadata": {
+    "feature_analysis_date": "2025-11-02",
+    "subjects_analyzed": 47,
+    "consistently_important_features": 24,
+    "average_outlier_rate": 0.038,
+    "baseline_rmse": "TBD",
+    "experiment_version": "2.0"
+  }
+}
+

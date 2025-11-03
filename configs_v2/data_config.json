@@ -1,0 +1,68 @@
+{
+  "data_paths": {
+    "raw_data_dir": "data/raw",
+    "processed_data_dir": "data/processed",
+    "subjects_dir": "data/processed/subjects",
+    "metadata_dir": "data/processed/metadata"
+  },
+  "processing_parameters": {
+    "sampling_interval_minutes": 5,
+    "history_days": 15,
+    "prediction_horizon_minutes": 60,
+    "prediction_steps": 12,
+    "glucose_range": {
+      "min": 40,
+      "max": 400
+    },
+    "interpolation_method": "linear",
+    "max_gap_minutes": 20
+  },
+  "feature_extraction": {
+    "statistical_features": [
+      "mean",
+      "std",
+      "min",
+      "max",
+      "median",
+      "q25",
+      "q75",
+      "iqr",
+      "skewness",
+      "kurtosis"
+    ],
+    "temporal_features": [
+      "slope",
+      "rate_of_change",
+      "acceleration",
+      "time_in_range",
+      "time_above_range",
+      "time_below_range"
+    ],
+    "glycemic_variability": [
+      "cv",
+      "sd",
+      "j_index",
+      "lbgi",
+      "hbgi",
+      "mage"
+    ]
+  },
+  "target_variables": {
+    "prediction_horizon_minutes": 30,
+    "hypoglycemia_threshold": 70,
+    "hyperglycemia_threshold": 180,
+    "target_range": [70, 180]
+  },
+  "data_split": {
+    "train_ratio": 0.7,
+    "val_ratio": 0.15,
+    "test_ratio": 0.15
+  },
+  "quality_control": {
+    "min_days_data": 3,
+    "max_missing_percentage": 30,
+    "remove_outliers": true,
+    "outlier_std_threshold": 4
+  }
+}
+

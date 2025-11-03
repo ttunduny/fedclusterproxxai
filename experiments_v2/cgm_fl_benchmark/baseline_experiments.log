@@ -1,0 +1,13 @@
+================================================================================
+PUBLICATION-QUALITY EXPERIMENT RUNNER
+Nature Journal Standards
+================================================================================
+
+Select experiment phase:
+1. Baseline Experiments (FedAvg, FedProx, FedSGD, FedCluster)
+2. Novel Method Experiments (FedClusterProxXAI)
+3. Ablation Studies
+4. Full Experimental Suite (All)
+5. Statistical Analysis Only
+
+Enter choice (1-5): Invalid choice. Exiting.

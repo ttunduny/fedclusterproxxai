@@ -1,0 +1,236 @@
+2025-11-03 11:57:13,595 - INFO - ================================================================================
+2025-11-03 11:57:13,595 - INFO - DATA QUALITY ASSURANCE - Publication Quality
+2025-11-03 11:57:13,595 - INFO - ================================================================================
+2025-11-03 11:57:13,595 - INFO - 
+Found 57 subject files
+2025-11-03 11:57:13,595 - INFO - 
+Validating: Subject6
+2025-11-03 11:57:14,277 - WARNING - ✗ Subject6: FAILED
+2025-11-03 11:57:14,277 - WARNING -   Issues: ['Target out of range: [0.058, 1.003]', 'Glucose out of physiological range: [0.1, 1.0]', 'Unexpected feature count: 42 (expected ~24)']
+2025-11-03 11:57:14,277 - INFO - 
+Validating: Subject39
+2025-11-03 11:57:14,750 - WARNING - ✗ Subject39: FAILED
+2025-11-03 11:57:14,750 - WARNING -   Issues: ['Normalized glucose out of range: [-0.111, -0.108]', 'Unexpected feature count: 42 (expected ~24)']
+2025-11-03 11:57:14,750 - INFO - 
+Validating: Subject42
+2025-11-03 11:57:15,327 - WARNING - ✗ Subject42: FAILED
+2025-11-03 11:57:15,327 - WARNING -   Issues: ['Target out of range: [-0.003, 0.846]', 'Normalized glucose out of range: [-0.111, -0.108]', 'Unexpected feature count: 42 (expected ~24)']
+2025-11-03 11:57:15,327 - INFO - 
+Validating: Subject15
+2025-11-03 11:57:15,809 - WARNING - ✗ Subject15: FAILED
+2025-11-03 11:57:15,809 - WARNING -   Issues: ['Target out of range: [0.014, 1.003]', 'Glucose out of physiological range: [0.0, 1.0]', 'Unexpected feature count: 42 (expected ~24)']
+2025-11-03 11:57:15,809 - INFO - 
+Validating: Subject54
+2025-11-03 11:57:16,264 - WARNING - ✗ Subject54: FAILED
+2025-11-03 11:57:16,264 - WARNING -   Issues: ['Normalized glucose out of range: [-0.111, -0.108]', 'Unexpected feature count: 42 (expected ~24)']
+2025-11-03 11:57:16,264 - INFO - 
+Validating: Subject23
+2025-11-03 11:57:16,712 - WARNING - ✗ Subject23: FAILED
+2025-11-03 11:57:16,712 - WARNING -   Issues: ['Target out of range: [0.022, 1.003]', 'Glucose out of physiological range: [0.0, 1.0]', 'Unexpected feature count: 42 (expected ~24)']
+2025-11-03 11:57:16,712 - INFO - 
+Validating: Subject35
+2025-11-03 11:57:17,156 - WARNING - ✗ Subject35: FAILED
+2025-11-03 11:57:17,156 - WARNING -   Issues: ['Target out of range: [-0.003, 1.003]', 'Glucose out of physiological range: [-0.0, 1.0]', 'Unexpected feature count: 42 (expected ~24)']
+2025-11-03 11:57:17,156 - INFO - 
+Validating: Subject19
+2025-11-03 11:57:17,956 - INFO - ✓ Subject19: PASSED
+2025-11-03 11:57:17,957 - INFO - 
+Validating: Subject18
+2025-11-03 11:57:18,351 - WARNING - ✗ Subject18: FAILED
+2025-11-03 11:57:18,351 - WARNING -   Issues: ['Target out of range: [0.036, 1.003]', 'Glucose out of physiological range: [0.0, 1.0]', 'Unexpected feature count: 42 (expected ~24)']
+2025-11-03 11:57:18,351 - INFO - 
+Validating: Subject34
+2025-11-03 11:57:18,796 - WARNING - ✗ Subject34: FAILED
+2025-11-03 11:57:18,796 - WARNING -   Issues: ['Target out of range: [0.067, 1.003]', 'Glucose out of physiological range: [0.1, 1.0]', 'Unexpected feature count: 42 (expected ~24)']
+2025-11-03 11:57:18,796 - INFO - 
+Validating: Subject22
+2025-11-03 11:57:19,421 - INFO - ✓ Subject22: PASSED
+2025-11-03 11:57:19,421 - INFO - 
+Validating: Subject14
+2025-11-03 11:57:19,893 - WARNING - ✗ Subject14: FAILED
+2025-11-03 11:57:19,893 - WARNING -   Issues: ['Target out of range: [-0.003, 0.964]', 'Normalized glucose out of range: [-0.003, 0.964]', 'Unexpected feature count: 42 (expected ~24)']
+2025-11-03 11:57:19,894 - INFO - 
+Validating: Subject43
+2025-11-03 11:57:20,339 - WARNING - ✗ Subject43: FAILED
+2025-11-03 11:57:20,339 - WARNING -   Issues: ['Target out of range: [-0.003, 1.003]', 'Glucose out of physiological range: [-0.0, 1.0]', 'Unexpected feature count: 42 (expected ~24)']
+2025-11-03 11:57:20,339 - INFO - 
+Validating: Subject38
+2025-11-03 11:57:20,804 - WARNING - ✗ Subject38: FAILED
+2025-11-03 11:57:20,804 - WARNING -   Issues: ['Normalized glucose out of range: [-0.111, -0.108]', 'Unexpected feature count: 42 (expected ~24)']
+2025-11-03 11:57:20,804 - INFO - 
+Validating: Subject7
+2025-11-03 11:57:21,650 - INFO - ✓ Subject7: PASSED
+2025-11-03 11:57:21,650 - INFO - 
+Validating: Subject25
+2025-11-03 11:57:22,495 - WARNING - ✗ Subject25: FAILED
+2025-11-03 11:57:22,495 - WARNING -   Issues: ['Target out of range: [0.081, 1.003]', 'Glucose out of physiological range: [0.1, 1.0]', 'Unexpected feature count: 42 (expected ~24)']
+2025-11-03 11:57:22,495 - INFO - 
+Validating: Subject33
+2025-11-03 11:57:23,030 - WARNING - ✗ Subject33: FAILED
+2025-11-03 11:57:23,030 - WARNING -   Issues: ['Target out of range: [0.044, 1.003]', 'Glucose out of physiological range: [0.0, 1.0]', 'Unexpected feature count: 42 (expected ~24)']
+2025-11-03 11:57:23,030 - INFO - 
+Validating: Subject48
+2025-11-03 11:57:23,428 - INFO - ✓ Subject48: PASSED
+2025-11-03 11:57:23,428 - INFO - 
+Validating: Subject29
+2025-11-03 11:57:23,865 - WARNING - ✗ Subject29: FAILED
+2025-11-03 11:57:23,865 - WARNING -   Issues: ['Target out of range: [-0.003, 0.871]', 'Normalized glucose out of range: [-0.111, -0.108]', 'Unexpected feature count: 42 (expected ~24)']
+2025-11-03 11:57:23,865 - INFO - 
+Validating: Subject44
+2025-11-03 11:57:24,372 - INFO - ✓ Subject44: PASSED
+2025-11-03 11:57:24,372 - INFO - 
+Validating: Subject13
+2025-11-03 11:57:25,213 - INFO - ✓ Subject13: PASSED
+2025-11-03 11:57:25,213 - INFO - 
+Validating: Subject52
+2025-11-03 11:57:25,604 - WARNING - ✗ Subject52: FAILED
+2025-11-03 11:57:25,604 - WARNING -   Issues: ['Target out of range: [0.158, 1.002]', 'Normalized glucose out of range: [-0.111, -0.108]', 'Unexpected feature count: 42 (expected ~24)']
+2025-11-03 11:57:25,604 - INFO - 
+Validating: Subject53
+2025-11-03 11:57:25,955 - WARNING - ✗ Subject53: FAILED
+2025-11-03 11:57:25,956 - WARNING -   Issues: ['Target out of range: [-0.003, 1.002]', 'Normalized glucose out of range: [-0.111, -0.108]', 'Unexpected feature count: 42 (expected ~24)']
+2025-11-03 11:57:25,956 - INFO - 
+Validating: Subject12
+2025-11-03 11:57:26,815 - INFO - ✓ Subject12: PASSED
+2025-11-03 11:57:26,815 - INFO - 
+Validating: Subject45
+2025-11-03 11:57:27,263 - WARNING - ✗ Subject45: FAILED
+2025-11-03 11:57:27,263 - WARNING -   Issues: ['Normalized glucose out of range: [-0.111, -0.108]', 'Unexpected feature count: 42 (expected ~24)']
+2025-11-03 11:57:27,263 - INFO - 
+Validating: SUB001
+2025-11-03 11:57:27,737 - WARNING - ✗ SUB001: FAILED
+2025-11-03 11:57:27,737 - WARNING -   Issues: ['Normalized glucose out of range: [-0.111, -0.108]', 'Unexpected feature count: 42 (expected ~24)']
+2025-11-03 11:57:27,737 - INFO - 
+Validating: Subject28
+2025-11-03 11:57:28,698 - INFO - ✓ Subject28: PASSED
+2025-11-03 11:57:28,698 - INFO - 
+Validating: Subject49
+2025-11-03 11:57:28,984 - WARNING - ✗ Subject49: FAILED
+2025-11-03 11:57:28,984 - WARNING -   Issues: ['Target out of range: [0.019, 1.002]', 'Normalized glucose out of range: [-0.111, -0.108]', 'Unexpected feature count: 42 (expected ~24)']
+2025-11-03 11:57:28,984 - INFO - 
+Validating: Subject32
+2025-11-03 11:57:29,436 - WARNING - ✗ Subject32: FAILED
+2025-11-03 11:57:29,436 - WARNING -   Issues: ['Target out of range: [-0.003, 1.003]', 'Glucose out of physiological range: [-0.0, 1.0]', 'Unexpected feature count: 42 (expected ~24)']
+2025-11-03 11:57:29,436 - INFO - 
+Validating: Subject24
+2025-11-03 11:57:29,834 - WARNING - ✗ Subject24: FAILED
+2025-11-03 11:57:29,834 - WARNING -   Issues: ['Target out of range: [-0.003, 1.003]', 'Glucose out of physiological range: [-0.0, 1.0]', 'Unexpected feature count: 42 (expected ~24)']
+2025-11-03 11:57:29,834 - INFO - 
+Validating: Subject31
+2025-11-03 11:57:30,274 - WARNING - ✗ Subject31: FAILED
+2025-11-03 11:57:30,274 - WARNING -   Issues: ['Normalized glucose out of range: [-0.111, -0.108]', 'Unexpected feature count: 42 (expected ~24)']
+2025-11-03 11:57:30,274 - INFO - 
+Validating: Subject27
+2025-11-03 11:57:31,087 - WARNING - ✗ Subject27: FAILED
+2025-11-03 11:57:31,087 - WARNING -   Issues: ['Target out of range: [0.017, 1.003]', 'Glucose out of physiological range: [0.0, 1.0]', 'Unexpected feature count: 42 (expected ~24)']
+2025-11-03 11:57:31,087 - INFO - 
+Validating: Subject50
+2025-11-03 11:57:31,412 - WARNING - ✗ Subject50: FAILED
+2025-11-03 11:57:31,412 - WARNING -   Issues: ['Target out of range: [0.033, 1.002]', 'Normalized glucose out of range: [-0.111, -0.108]', 'Unexpected feature count: 42 (expected ~24)']
+2025-11-03 11:57:31,412 - INFO - 
+Validating: Subject11
+2025-11-03 11:57:31,825 - WARNING - ✗ Subject11: FAILED
+2025-11-03 11:57:31,826 - WARNING -   Issues: ['Target out of range: [-0.003, 1.003]', 'Glucose out of physiological range: [-0.0, 1.0]', 'Unexpected feature count: 42 (expected ~24)']
+2025-11-03 11:57:31,826 - INFO - 
+Validating: Subject46
+2025-11-03 11:57:32,289 - WARNING - ✗ Subject46: FAILED
+2025-11-03 11:57:32,289 - WARNING -   Issues: ['Target out of range: [-0.003, 1.002]', 'Normalized glucose out of range: [-0.111, -0.108]', 'Unexpected feature count: 42 (expected ~24)']
+2025-11-03 11:57:32,289 - INFO - 
+Validating: SUB002
+2025-11-03 11:57:32,761 - WARNING - ✗ SUB002: FAILED
+2025-11-03 11:57:32,761 - WARNING -   Issues: ['Normalized glucose out of range: [-0.111, -0.108]', 'Unexpected feature count: 42 (expected ~24)']
+2025-11-03 11:57:32,761 - INFO - 
+Validating: SUB003
+2025-11-03 11:57:33,237 - WARNING - ✗ SUB003: FAILED
+2025-11-03 11:57:33,237 - WARNING -   Issues: ['Normalized glucose out of range: [-0.111, -0.108]', 'Unexpected feature count: 42 (expected ~24)']
+2025-11-03 11:57:33,237 - INFO - 
+Validating: Subject3
+2025-11-03 11:57:33,653 - WARNING - ✗ Subject3: FAILED
+2025-11-03 11:57:33,653 - WARNING -   Issues: ['Target out of range: [0.036, 1.003]', 'Glucose out of physiological range: [0.0, 1.0]', 'Unexpected feature count: 42 (expected ~24)']
+2025-11-03 11:57:33,653 - INFO - 
+Validating: Subject47
+2025-11-03 11:57:34,108 - WARNING - ✗ Subject47: FAILED
+2025-11-03 11:57:34,109 - WARNING -   Issues: ['Normalized glucose out of range: [-0.111, -0.108]', 'Unexpected feature count: 42 (expected ~24)']
+2025-11-03 11:57:34,109 - INFO - 
+Validating: Subject10
+2025-11-03 11:57:34,722 - WARNING - ✗ Subject10: FAILED
+2025-11-03 11:57:34,722 - WARNING -   Issues: ['Target out of range: [-0.003, 1.003]', 'Glucose out of physiological range: [-0.0, 1.0]', 'Unexpected feature count: 42 (expected ~24)']
+2025-11-03 11:57:34,722 - INFO - 
+Validating: Subject51
+2025-11-03 11:57:35,164 - WARNING - ✗ Subject51: FAILED
+2025-11-03 11:57:35,164 - WARNING -   Issues: ['Target out of range: [-0.003, 0.938]', 'Normalized glucose out of range: [-0.111, -0.108]', 'Unexpected feature count: 42 (expected ~24)']
+2025-11-03 11:57:35,164 - INFO - 
+Validating: Subject26
+2025-11-03 11:57:35,624 - WARNING - ✗ Subject26: FAILED
+2025-11-03 11:57:35,624 - WARNING -   Issues: ['Target out of range: [0.036, 1.003]', 'Glucose out of physiological range: [0.0, 1.0]', 'Unexpected feature count: 42 (expected ~24)']
+2025-11-03 11:57:35,624 - INFO - 
+Validating: Subject30
+2025-11-03 11:57:36,084 - WARNING - ✗ Subject30: FAILED
+2025-11-03 11:57:36,085 - WARNING -   Issues: ['Normalized glucose out of range: [-0.111, -0.108]', 'Unexpected feature count: 42 (expected ~24)']
+2025-11-03 11:57:36,085 - INFO - 
+Validating: Subject17
+2025-11-03 11:57:36,869 - INFO - ✓ Subject17: PASSED
+2025-11-03 11:57:36,869 - INFO - 
+Validating: Subject40
+2025-11-03 11:57:37,335 - WARNING - ✗ Subject40: FAILED
+2025-11-03 11:57:37,335 - WARNING -   Issues: ['Target out of range: [-0.003, 1.003]', 'Glucose out of physiological range: [-0.0, 1.0]', 'Unexpected feature count: 42 (expected ~24)']
+2025-11-03 11:57:37,335 - INFO - 
+Validating: Subject4
+2025-11-03 11:57:38,092 - WARNING - ✗ Subject4: FAILED
+2025-11-03 11:57:38,092 - WARNING -   Issues: ['Target out of range: [-0.003, 0.894]', 'Normalized glucose out of range: [-0.003, 0.894]', 'Unexpected feature count: 42 (expected ~24)']
+2025-11-03 11:57:38,092 - INFO - 
+Validating: SUB004
+2025-11-03 11:57:38,563 - WARNING - ✗ SUB004: FAILED
+2025-11-03 11:57:38,563 - WARNING -   Issues: ['Normalized glucose out of range: [-0.111, -0.108]', 'Unexpected feature count: 42 (expected ~24)']
+2025-11-03 11:57:38,563 - INFO - 
+Validating: Subject37
+2025-11-03 11:57:39,023 - WARNING - ✗ Subject37: FAILED
+2025-11-03 11:57:39,024 - WARNING -   Issues: ['Normalized glucose out of range: [-0.111, -0.108]', 'Unexpected feature count: 42 (expected ~24)']
+2025-11-03 11:57:39,024 - INFO - 
+Validating: Subject8
+2025-11-03 11:57:39,486 - WARNING - ✗ Subject8: FAILED
+2025-11-03 11:57:39,486 - WARNING -   Issues: ['Target out of range: [0.019, 1.003]', 'Glucose out of physiological range: [0.0, 1.0]', 'Unexpected feature count: 42 (expected ~24)']
+2025-11-03 11:57:39,486 - INFO - 
+Validating: Subject21
+2025-11-03 11:57:39,956 - WARNING - ✗ Subject21: FAILED
+2025-11-03 11:57:39,956 - WARNING -   Issues: ['Target out of range: [-0.003, 0.950]', 'Normalized glucose out of range: [-0.003, 0.950]', 'Unexpected feature count: 42 (expected ~24)']
+2025-11-03 11:57:39,956 - INFO - 
+Validating: Subject20
+2025-11-03 11:57:40,819 - WARNING - ✗ Subject20: FAILED
+2025-11-03 11:57:40,819 - WARNING -   Issues: ['Target out of range: [-0.003, 1.003]', 'Glucose out of physiological range: [-0.0, 1.0]', 'Unexpected feature count: 42 (expected ~24)']
+2025-11-03 11:57:40,819 - INFO - 
+Validating: Subject9
+2025-11-03 11:57:41,603 - WARNING - ✗ Subject9: FAILED
+2025-11-03 11:57:41,603 - WARNING -   Issues: ['Target out of range: [-0.003, 1.003]', 'Glucose out of physiological range: [-0.0, 1.0]', 'Unexpected feature count: 42 (expected ~24)']
+2025-11-03 11:57:41,604 - INFO - 
+Validating: Subject36
+2025-11-03 11:57:42,061 - WARNING - ✗ Subject36: FAILED
+2025-11-03 11:57:42,061 - WARNING -   Issues: ['Normalized glucose out of range: [-0.111, -0.108]', 'Unexpected feature count: 42 (expected ~24)']
+2025-11-03 11:57:42,061 - INFO - 
+Validating: SUB005
+2025-11-03 11:57:42,532 - WARNING - ✗ SUB005: FAILED
+2025-11-03 11:57:42,532 - WARNING -   Issues: ['Normalized glucose out of range: [-0.111, -0.108]', 'Unexpected feature count: 42 (expected ~24)']
+2025-11-03 11:57:42,532 - INFO - 
+Validating: Subject5
+2025-11-03 11:57:42,994 - WARNING - ✗ Subject5: FAILED
+2025-11-03 11:57:42,994 - WARNING -   Issues: ['Target out of range: [0.089, 1.003]', 'Glucose out of physiological range: [0.1, 1.0]', 'Unexpected feature count: 42 (expected ~24)']
+2025-11-03 11:57:42,994 - INFO - 
+Validating: Subject41
+2025-11-03 11:57:43,307 - INFO - ✓ Subject41: PASSED
+2025-11-03 11:57:43,307 - INFO - 
+Validating: Subject16
+2025-11-03 11:57:43,755 - WARNING - ✗ Subject16: FAILED
+2025-11-03 11:57:43,755 - WARNING -   Issues: ['Target out of range: [0.047, 1.003]', 'Glucose out of physiological range: [0.0, 1.0]', 'Unexpected feature count: 42 (expected ~24)']
+2025-11-03 11:57:43,756 - INFO - 
+================================================================================
+2025-11-03 11:57:43,756 - INFO - VALIDATION SUMMARY
+2025-11-03 11:57:43,756 - INFO - ================================================================================
+2025-11-03 11:57:43,756 - INFO - Total subjects: 57
+2025-11-03 11:57:43,756 - INFO - Passed: 10
+2025-11-03 11:57:43,756 - INFO - Failed: 47
+2025-11-03 11:57:43,758 - INFO - 
+✓ Validation report saved: data/processed/quality_assurance_report.json
+2025-11-03 11:57:43,759 - INFO - 
+✓ Quality report saved: data/processed/quality_assurance_report.csv
+2025-11-03 11:57:43,759 - INFO - 
+High-quality subjects: 10/57

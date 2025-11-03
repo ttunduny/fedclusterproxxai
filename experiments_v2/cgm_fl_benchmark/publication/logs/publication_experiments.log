@@ -1,0 +1,294 @@
+2025-11-03 13:59:09,387 - INFO - ================================================================================
+2025-11-03 13:59:09,387 - INFO - BASELINE EXPERIMENTS - Publication Quality
+2025-11-03 13:59:09,387 - INFO - ================================================================================
+2025-11-03 13:59:09,387 - INFO - 
+================================================================================
+2025-11-03 13:59:09,387 - INFO - Running: FedAvg
+2025-11-03 13:59:09,387 - INFO - ================================================================================
+2025-11-03 13:59:09,387 - INFO - 
+Run 1/10
+2025-11-03 13:59:09,387 - ERROR - ✗ Run 1 failed: [Errno 2] No such file or directory: '/Users/gtlabs/Desktop/configs_v2/experiment_config.json'
+2025-11-03 13:59:09,387 - INFO - 
+Run 2/10
+2025-11-03 13:59:09,387 - ERROR - ✗ Run 2 failed: [Errno 2] No such file or directory: '/Users/gtlabs/Desktop/configs_v2/experiment_config.json'
+2025-11-03 13:59:09,387 - INFO - 
+Run 3/10
+2025-11-03 13:59:09,387 - ERROR - ✗ Run 3 failed: [Errno 2] No such file or directory: '/Users/gtlabs/Desktop/configs_v2/experiment_config.json'
+2025-11-03 13:59:09,387 - INFO - 
+Run 4/10
+2025-11-03 13:59:09,387 - ERROR - ✗ Run 4 failed: [Errno 2] No such file or directory: '/Users/gtlabs/Desktop/configs_v2/experiment_config.json'
+2025-11-03 13:59:09,387 - INFO - 
+Run 5/10
+2025-11-03 13:59:09,387 - ERROR - ✗ Run 5 failed: [Errno 2] No such file or directory: '/Users/gtlabs/Desktop/configs_v2/experiment_config.json'
+2025-11-03 13:59:09,387 - INFO - 
+Run 6/10
+2025-11-03 13:59:09,387 - ERROR - ✗ Run 6 failed: [Errno 2] No such file or directory: '/Users/gtlabs/Desktop/configs_v2/experiment_config.json'
+2025-11-03 13:59:09,387 - INFO - 
+Run 7/10
+2025-11-03 13:59:09,387 - ERROR - ✗ Run 7 failed: [Errno 2] No such file or directory: '/Users/gtlabs/Desktop/configs_v2/experiment_config.json'
+2025-11-03 13:59:09,387 - INFO - 
+Run 8/10
+2025-11-03 13:59:09,387 - ERROR - ✗ Run 8 failed: [Errno 2] No such file or directory: '/Users/gtlabs/Desktop/configs_v2/experiment_config.json'
+2025-11-03 13:59:09,387 - INFO - 
+Run 9/10
+2025-11-03 13:59:09,388 - ERROR - ✗ Run 9 failed: [Errno 2] No such file or directory: '/Users/gtlabs/Desktop/configs_v2/experiment_config.json'
+2025-11-03 13:59:09,388 - INFO - 
+Run 10/10
+2025-11-03 13:59:09,388 - ERROR - ✗ Run 10 failed: [Errno 2] No such file or directory: '/Users/gtlabs/Desktop/configs_v2/experiment_config.json'
+2025-11-03 13:59:09,388 - INFO - 
+================================================================================
+2025-11-03 13:59:09,388 - INFO - Running: FedProx
+2025-11-03 13:59:09,388 - INFO - ================================================================================
+2025-11-03 13:59:09,388 - INFO - 
+Run 1/10
+2025-11-03 13:59:09,388 - ERROR - ✗ Run 1 failed: [Errno 2] No such file or directory: '/Users/gtlabs/Desktop/configs_v2/experiment_config.json'
+2025-11-03 13:59:09,388 - INFO - 
+Run 2/10
+2025-11-03 13:59:09,388 - ERROR - ✗ Run 2 failed: [Errno 2] No such file or directory: '/Users/gtlabs/Desktop/configs_v2/experiment_config.json'
+2025-11-03 13:59:09,388 - INFO - 
+Run 3/10
+2025-11-03 13:59:09,388 - ERROR - ✗ Run 3 failed: [Errno 2] No such file or directory: '/Users/gtlabs/Desktop/configs_v2/experiment_config.json'
+2025-11-03 13:59:09,388 - INFO - 
+Run 4/10
+2025-11-03 13:59:09,388 - ERROR - ✗ Run 4 failed: [Errno 2] No such file or directory: '/Users/gtlabs/Desktop/configs_v2/experiment_config.json'
+2025-11-03 13:59:09,388 - INFO - 
+Run 5/10
+2025-11-03 13:59:09,388 - ERROR - ✗ Run 5 failed: [Errno 2] No such file or directory: '/Users/gtlabs/Desktop/configs_v2/experiment_config.json'
+2025-11-03 13:59:09,388 - INFO - 
+Run 6/10
+2025-11-03 13:59:09,388 - ERROR - ✗ Run 6 failed: [Errno 2] No such file or directory: '/Users/gtlabs/Desktop/configs_v2/experiment_config.json'
+2025-11-03 13:59:09,388 - INFO - 
+Run 7/10
+2025-11-03 13:59:09,388 - ERROR - ✗ Run 7 failed: [Errno 2] No such file or directory: '/Users/gtlabs/Desktop/configs_v2/experiment_config.json'
+2025-11-03 13:59:09,388 - INFO - 
+Run 8/10
+2025-11-03 13:59:09,388 - ERROR - ✗ Run 8 failed: [Errno 2] No such file or directory: '/Users/gtlabs/Desktop/configs_v2/experiment_config.json'
+2025-11-03 13:59:09,388 - INFO - 
+Run 9/10
+2025-11-03 13:59:09,388 - ERROR - ✗ Run 9 failed: [Errno 2] No such file or directory: '/Users/gtlabs/Desktop/configs_v2/experiment_config.json'
+2025-11-03 13:59:09,388 - INFO - 
+Run 10/10
+2025-11-03 13:59:09,388 - ERROR - ✗ Run 10 failed: [Errno 2] No such file or directory: '/Users/gtlabs/Desktop/configs_v2/experiment_config.json'
+2025-11-03 13:59:09,388 - INFO - 
+================================================================================
+2025-11-03 13:59:09,388 - INFO - Running: FedSGD
+2025-11-03 13:59:09,388 - INFO - ================================================================================
+2025-11-03 13:59:09,388 - INFO - 
+Run 1/10
+2025-11-03 13:59:09,388 - ERROR - ✗ Run 1 failed: [Errno 2] No such file or directory: '/Users/gtlabs/Desktop/configs_v2/experiment_config.json'
+2025-11-03 13:59:09,388 - INFO - 
+Run 2/10
+2025-11-03 13:59:09,388 - ERROR - ✗ Run 2 failed: [Errno 2] No such file or directory: '/Users/gtlabs/Desktop/configs_v2/experiment_config.json'
+2025-11-03 13:59:09,388 - INFO - 
+Run 3/10
+2025-11-03 13:59:09,388 - ERROR - ✗ Run 3 failed: [Errno 2] No such file or directory: '/Users/gtlabs/Desktop/configs_v2/experiment_config.json'
+2025-11-03 13:59:09,388 - INFO - 
+Run 4/10
+2025-11-03 13:59:09,388 - ERROR - ✗ Run 4 failed: [Errno 2] No such file or directory: '/Users/gtlabs/Desktop/configs_v2/experiment_config.json'
+2025-11-03 13:59:09,388 - INFO - 
+Run 5/10
+2025-11-03 13:59:09,388 - ERROR - ✗ Run 5 failed: [Errno 2] No such file or directory: '/Users/gtlabs/Desktop/configs_v2/experiment_config.json'
+2025-11-03 13:59:09,388 - INFO - 
+Run 6/10
+2025-11-03 13:59:09,388 - ERROR - ✗ Run 6 failed: [Errno 2] No such file or directory: '/Users/gtlabs/Desktop/configs_v2/experiment_config.json'
+2025-11-03 13:59:09,388 - INFO - 
+Run 7/10
+2025-11-03 13:59:09,388 - ERROR - ✗ Run 7 failed: [Errno 2] No such file or directory: '/Users/gtlabs/Desktop/configs_v2/experiment_config.json'
+2025-11-03 13:59:09,388 - INFO - 
+Run 8/10
+2025-11-03 13:59:09,388 - ERROR - ✗ Run 8 failed: [Errno 2] No such file or directory: '/Users/gtlabs/Desktop/configs_v2/experiment_config.json'
+2025-11-03 13:59:09,388 - INFO - 
+Run 9/10
+2025-11-03 13:59:09,389 - ERROR - ✗ Run 9 failed: [Errno 2] No such file or directory: '/Users/gtlabs/Desktop/configs_v2/experiment_config.json'
+2025-11-03 13:59:09,389 - INFO - 
+Run 10/10
+2025-11-03 13:59:09,389 - ERROR - ✗ Run 10 failed: [Errno 2] No such file or directory: '/Users/gtlabs/Desktop/configs_v2/experiment_config.json'
+2025-11-03 13:59:09,389 - INFO - 
+================================================================================
+2025-11-03 13:59:09,389 - INFO - Running: FedCluster
+2025-11-03 13:59:09,389 - INFO - ================================================================================
+2025-11-03 13:59:09,389 - INFO - 
+Run 1/10
+2025-11-03 13:59:09,389 - ERROR - ✗ Run 1 failed: [Errno 2] No such file or directory: '/Users/gtlabs/Desktop/configs_v2/experiment_config.json'
+2025-11-03 13:59:09,389 - INFO - 
+Run 2/10
+2025-11-03 13:59:09,389 - ERROR - ✗ Run 2 failed: [Errno 2] No such file or directory: '/Users/gtlabs/Desktop/configs_v2/experiment_config.json'
+2025-11-03 13:59:09,389 - INFO - 
+Run 3/10
+2025-11-03 13:59:09,389 - ERROR - ✗ Run 3 failed: [Errno 2] No such file or directory: '/Users/gtlabs/Desktop/configs_v2/experiment_config.json'
+2025-11-03 13:59:09,389 - INFO - 
+Run 4/10
+2025-11-03 13:59:09,389 - ERROR - ✗ Run 4 failed: [Errno 2] No such file or directory: '/Users/gtlabs/Desktop/configs_v2/experiment_config.json'
+2025-11-03 13:59:09,389 - INFO - 
+Run 5/10
+2025-11-03 13:59:09,389 - ERROR - ✗ Run 5 failed: [Errno 2] No such file or directory: '/Users/gtlabs/Desktop/configs_v2/experiment_config.json'
+2025-11-03 13:59:09,389 - INFO - 
+Run 6/10
+2025-11-03 13:59:09,389 - ERROR - ✗ Run 6 failed: [Errno 2] No such file or directory: '/Users/gtlabs/Desktop/configs_v2/experiment_config.json'
+2025-11-03 13:59:09,389 - INFO - 
+Run 7/10
+2025-11-03 13:59:09,389 - ERROR - ✗ Run 7 failed: [Errno 2] No such file or directory: '/Users/gtlabs/Desktop/configs_v2/experiment_config.json'
+2025-11-03 13:59:09,389 - INFO - 
+Run 8/10
+2025-11-03 13:59:09,389 - ERROR - ✗ Run 8 failed: [Errno 2] No such file or directory: '/Users/gtlabs/Desktop/configs_v2/experiment_config.json'
+2025-11-03 13:59:09,389 - INFO - 
+Run 9/10
+2025-11-03 13:59:09,389 - ERROR - ✗ Run 9 failed: [Errno 2] No such file or directory: '/Users/gtlabs/Desktop/configs_v2/experiment_config.json'
+2025-11-03 13:59:09,389 - INFO - 
+Run 10/10
+2025-11-03 13:59:09,389 - ERROR - ✗ Run 10 failed: [Errno 2] No such file or directory: '/Users/gtlabs/Desktop/configs_v2/experiment_config.json'
+2025-11-03 13:59:09,389 - INFO - 
+✓ Baseline experiments complete!
+2025-11-03 14:03:41,370 - INFO - ================================================================================
+2025-11-03 14:03:41,371 - INFO - BASELINE EXPERIMENTS - Publication Quality
+2025-11-03 14:03:41,371 - INFO - ================================================================================
+2025-11-03 14:03:41,371 - INFO - 
+================================================================================
+2025-11-03 14:03:41,371 - INFO - Running: FedAvg
+2025-11-03 14:03:41,371 - INFO - ================================================================================
+2025-11-03 14:03:41,371 - INFO - 
+Run 1/10
+2025-11-03 14:03:41,373 - ERROR - ✗ Run 1 failed: [Errno 2] No such file or directory: 'data/processed/subjects'
+2025-11-03 14:03:41,373 - INFO - 
+Run 2/10
+2025-11-03 14:03:41,373 - ERROR - ✗ Run 2 failed: [Errno 2] No such file or directory: 'data/processed/subjects'
+2025-11-03 14:03:41,373 - INFO - 
+Run 3/10
+2025-11-03 14:03:41,373 - ERROR - ✗ Run 3 failed: [Errno 2] No such file or directory: 'data/processed/subjects'
+2025-11-03 14:03:41,373 - INFO - 
+Run 4/10
+2025-11-03 14:03:41,374 - ERROR - ✗ Run 4 failed: [Errno 2] No such file or directory: 'data/processed/subjects'
+2025-11-03 14:03:41,374 - INFO - 
+Run 5/10
+2025-11-03 14:03:41,374 - ERROR - ✗ Run 5 failed: [Errno 2] No such file or directory: 'data/processed/subjects'
+2025-11-03 14:03:41,374 - INFO - 
+Run 6/10
+2025-11-03 14:03:41,374 - ERROR - ✗ Run 6 failed: [Errno 2] No such file or directory: 'data/processed/subjects'
+2025-11-03 14:03:41,374 - INFO - 
+Run 7/10
+2025-11-03 14:03:41,374 - ERROR - ✗ Run 7 failed: [Errno 2] No such file or directory: 'data/processed/subjects'
+2025-11-03 14:03:41,374 - INFO - 
+Run 8/10
+2025-11-03 14:03:41,375 - ERROR - ✗ Run 8 failed: [Errno 2] No such file or directory: 'data/processed/subjects'
+2025-11-03 14:03:41,375 - INFO - 
+Run 9/10
+2025-11-03 14:03:41,375 - ERROR - ✗ Run 9 failed: [Errno 2] No such file or directory: 'data/processed/subjects'
+2025-11-03 14:03:41,375 - INFO - 
+Run 10/10
+2025-11-03 14:03:41,375 - ERROR - ✗ Run 10 failed: [Errno 2] No such file or directory: 'data/processed/subjects'
+2025-11-03 14:03:41,375 - INFO - 
+================================================================================
+2025-11-03 14:03:41,375 - INFO - Running: FedProx
+2025-11-03 14:03:41,375 - INFO - ================================================================================
+2025-11-03 14:03:41,375 - INFO - 
+Run 1/10
+2025-11-03 14:03:41,375 - ERROR - ✗ Run 1 failed: [Errno 2] No such file or directory: 'data/processed/subjects'
+2025-11-03 14:03:41,375 - INFO - 
+Run 2/10
+2025-11-03 14:03:41,376 - ERROR - ✗ Run 2 failed: [Errno 2] No such file or directory: 'data/processed/subjects'
+2025-11-03 14:03:41,376 - INFO - 
+Run 3/10
+2025-11-03 14:03:41,376 - ERROR - ✗ Run 3 failed: [Errno 2] No such file or directory: 'data/processed/subjects'
+2025-11-03 14:03:41,376 - INFO - 
+Run 4/10
+2025-11-03 14:03:41,376 - ERROR - ✗ Run 4 failed: [Errno 2] No such file or directory: 'data/processed/subjects'
+2025-11-03 14:03:41,376 - INFO - 
+Run 5/10
+2025-11-03 14:03:41,376 - ERROR - ✗ Run 5 failed: [Errno 2] No such file or directory: 'data/processed/subjects'
+2025-11-03 14:03:41,376 - INFO - 
+Run 6/10
+2025-11-03 14:03:41,377 - ERROR - ✗ Run 6 failed: [Errno 2] No such file or directory: 'data/processed/subjects'
+2025-11-03 14:03:41,377 - INFO - 
+Run 7/10
+2025-11-03 14:03:41,377 - ERROR - ✗ Run 7 failed: [Errno 2] No such file or directory: 'data/processed/subjects'
+2025-11-03 14:03:41,377 - INFO - 
+Run 8/10
+2025-11-03 14:03:41,377 - ERROR - ✗ Run 8 failed: [Errno 2] No such file or directory: 'data/processed/subjects'
+2025-11-03 14:03:41,377 - INFO - 
+Run 9/10
+2025-11-03 14:03:41,377 - ERROR - ✗ Run 9 failed: [Errno 2] No such file or directory: 'data/processed/subjects'
+2025-11-03 14:03:41,377 - INFO - 
+Run 10/10
+2025-11-03 14:03:41,378 - ERROR - ✗ Run 10 failed: [Errno 2] No such file or directory: 'data/processed/subjects'
+2025-11-03 14:03:41,378 - INFO - 
+================================================================================
+2025-11-03 14:03:41,378 - INFO - Running: FedSGD
+2025-11-03 14:03:41,378 - INFO - ================================================================================
+2025-11-03 14:03:41,378 - INFO - 
+Run 1/10
+2025-11-03 14:03:41,378 - ERROR - ✗ Run 1 failed: [Errno 2] No such file or directory: 'data/processed/subjects'
+2025-11-03 14:03:41,378 - INFO - 
+Run 2/10
+2025-11-03 14:03:41,379 - ERROR - ✗ Run 2 failed: [Errno 2] No such file or directory: 'data/processed/subjects'
+2025-11-03 14:03:41,379 - INFO - 
+Run 3/10
+2025-11-03 14:03:41,379 - ERROR - ✗ Run 3 failed: [Errno 2] No such file or directory: 'data/processed/subjects'
+2025-11-03 14:03:41,379 - INFO - 
+Run 4/10
+2025-11-03 14:03:41,379 - ERROR - ✗ Run 4 failed: [Errno 2] No such file or directory: 'data/processed/subjects'
+2025-11-03 14:03:41,379 - INFO - 
+Run 5/10
+2025-11-03 14:03:41,380 - ERROR - ✗ Run 5 failed: [Errno 2] No such file or directory: 'data/processed/subjects'
+2025-11-03 14:03:41,380 - INFO - 
+Run 6/10
+2025-11-03 14:03:41,380 - ERROR - ✗ Run 6 failed: [Errno 2] No such file or directory: 'data/processed/subjects'
+2025-11-03 14:03:41,380 - INFO - 
+Run 7/10
+2025-11-03 14:03:41,380 - ERROR - ✗ Run 7 failed: [Errno 2] No such file or directory: 'data/processed/subjects'
+2025-11-03 14:03:41,380 - INFO - 
+Run 8/10
+2025-11-03 14:03:41,380 - ERROR - ✗ Run 8 failed: [Errno 2] No such file or directory: 'data/processed/subjects'
+2025-11-03 14:03:41,380 - INFO - 
+Run 9/10
+2025-11-03 14:03:41,381 - ERROR - ✗ Run 9 failed: [Errno 2] No such file or directory: 'data/processed/subjects'
+2025-11-03 14:03:41,381 - INFO - 
+Run 10/10
+2025-11-03 14:03:41,381 - ERROR - ✗ Run 10 failed: [Errno 2] No such file or directory: 'data/processed/subjects'
+2025-11-03 14:03:41,381 - INFO - 
+================================================================================
+2025-11-03 14:03:41,381 - INFO - Running: FedCluster
+2025-11-03 14:03:41,381 - INFO - ================================================================================
+2025-11-03 14:03:41,381 - INFO - 
+Run 1/10
+2025-11-03 14:03:41,381 - ERROR - ✗ Run 1 failed: [Errno 2] No such file or directory: 'data/processed/subjects'
+2025-11-03 14:03:41,381 - INFO - 
+Run 2/10
+2025-11-03 14:03:41,381 - ERROR - ✗ Run 2 failed: [Errno 2] No such file or directory: 'data/processed/subjects'
+2025-11-03 14:03:41,381 - INFO - 
+Run 3/10
+2025-11-03 14:03:41,381 - ERROR - ✗ Run 3 failed: [Errno 2] No such file or directory: 'data/processed/subjects'
+2025-11-03 14:03:41,381 - INFO - 
+Run 4/10
+2025-11-03 14:03:41,382 - ERROR - ✗ Run 4 failed: [Errno 2] No such file or directory: 'data/processed/subjects'
+2025-11-03 14:03:41,382 - INFO - 
+Run 5/10
+2025-11-03 14:03:41,382 - ERROR - ✗ Run 5 failed: [Errno 2] No such file or directory: 'data/processed/subjects'
+2025-11-03 14:03:41,382 - INFO - 
+Run 6/10
+2025-11-03 14:03:41,382 - ERROR - ✗ Run 6 failed: [Errno 2] No such file or directory: 'data/processed/subjects'
+2025-11-03 14:03:41,382 - INFO - 
+Run 7/10
+2025-11-03 14:03:41,382 - ERROR - ✗ Run 7 failed: [Errno 2] No such file or directory: 'data/processed/subjects'
+2025-11-03 14:03:41,382 - INFO - 
+Run 8/10
+2025-11-03 14:03:41,382 - ERROR - ✗ Run 8 failed: [Errno 2] No such file or directory: 'data/processed/subjects'
+2025-11-03 14:03:41,382 - INFO - 
+Run 9/10
+2025-11-03 14:03:41,383 - ERROR - ✗ Run 9 failed: [Errno 2] No such file or directory: 'data/processed/subjects'
+2025-11-03 14:03:41,383 - INFO - 
+Run 10/10
+2025-11-03 14:03:41,383 - ERROR - ✗ Run 10 failed: [Errno 2] No such file or directory: 'data/processed/subjects'
+2025-11-03 14:03:41,383 - INFO - 
+✓ Baseline experiments complete!
+2025-11-03 14:04:09,922 - INFO - ================================================================================
+2025-11-03 14:04:09,922 - INFO - BASELINE EXPERIMENTS - Publication Quality
+2025-11-03 14:04:09,922 - INFO - ================================================================================
+2025-11-03 14:04:09,922 - INFO - 
+================================================================================
+2025-11-03 14:04:09,922 - INFO - Running: FedAvg
+2025-11-03 14:04:09,922 - INFO - ================================================================================
+2025-11-03 14:04:09,922 - INFO - 
+Run 1/10
+2025-11-03 15:20:50,093 - INFO - ✓ Run 1 completed
+2025-11-03 15:20:50,106 - INFO - 
+Run 2/10

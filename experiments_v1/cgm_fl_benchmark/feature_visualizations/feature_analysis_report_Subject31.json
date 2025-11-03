@@ -1,0 +1,685 @@
+{
+  "subject_id": "Subject31",
+  "total_samples": 4074,
+  "total_features": 42,
+  "target_correlations": {
+    "hour": {
+      "correlation": 0.06893312921346503,
+      "p_value": 1.0639797758615385e-05,
+      "significant": "True"
+    },
+    "day_of_week": {
+      "correlation": 0.0775469376632778,
+      "p_value": 7.210659994974747e-07,
+      "significant": "True"
+    },
+    "is_weekend": {
+      "correlation": 0.07110236152878058,
+      "p_value": 5.554581810202668e-06,
+      "significant": "True"
+    },
+    "hour_sin": {
+      "correlation": -0.14362051794405878,
+      "p_value": 3.201769656700533e-20,
+      "significant": "True"
+    },
+    "hour_cos": {
+      "correlation": 0.1414479585773595,
+      "p_value": 1.1771726436928405e-19,
+      "significant": "True"
+    },
+    "current_glucose": {
+      "correlation": 0.7061604602368344,
+      "p_value": 0.0,
+      "significant": "True"
+    },
+    "prev_15min": {
+      "correlation": 0.607947409229831,
+      "p_value": 0.0,
+      "significant": "True"
+    },
+    "prev_30min": {
+      "correlation": 0.5123526071818476,
+      "p_value": 1.394428712358792e-271,
+      "significant": "True"
+    },
+    "prev_60min": {
+      "correlation": 0.3427718132799801,
+      "p_value": 1.1062767756515576e-112,
+      "significant": "True"
+    },
+    "roc_30min": {
+      "correlation": 0.4184379315753166,
+      "p_value": 1.898132693644687e-172,
+      "significant": "True"
+    },
+    "roc_60min": {
+      "correlation": 0.474071194540211,
+      "p_value": 2.1461951936966075e-227,
+      "significant": "True"
+    },
+    "mean_1h": {
+      "correlation": 0.550342248730073,
+      "p_value": 2.164e-321,
+      "significant": "True"
+    },
+    "std_1h": {
+      "correlation": 0.22851943955101306,
+      "p_value": 2.0495850581482993e-49,
+      "significant": "True"
+    },
+    "mean_3h": {
+      "correlation": 0.30450251276288337,
+      "p_value": 3.7325849858336923e-88,
+      "significant": "True"
+    },
+    "std_3h": {
+      "correlation": 0.23049685822906374,
+      "p_value": 2.88902045325957e-50,
+      "significant": "True"
+    },
+    "min_3h": {
+      "correlation": 0.23594339232998024,
+      "p_value": 1.1888083463585163e-52,
+      "significant": "True"
+    },
+    "max_3h": {
+      "correlation": 0.39321681659774976,
+      "p_value": 9.553561437553762e-151,
+      "significant": "True"
+    },
+    "mean_6h": {
+      "correlation": 0.10524270352694014,
+      "p_value": 1.649858462308406e-11,
+      "significant": "True"
+    },
+    "std_6h": {
+      "correlation": 0.093723484524954,
+      "p_value": 2.0533053555468825e-09,
+      "significant": "True"
+    },
+    "min_6h": {
+      "correlation": 0.10826460707990468,
+      "p_value": 4.251628981849887e-12,
+      "significant": "True"
+    },
+    "max_6h": {
+      "correlation": 0.20408158892029588,
+      "p_value": 1.4743502775066817e-39,
+      "significant": "True"
+    },
+    "mean_12h": {
+      "correlation": 0.03545588344191094,
+      "p_value": 0.02363005484094084,
+      "significant": "True"
+    },
+    "std_12h": {
+      "correlation": -0.007136777233239971,
+      "p_value": 0.6488276301900086,
+      "significant": "False"
+    },
+    "min_12h": {
+      "correlation": 0.062274620695082904,
+      "p_value": 6.964395284692222e-05,
+      "significant": "True"
+    },
+    "max_12h": {
+      "correlation": 0.09808453838857056,
+      "p_value": 3.524759063677763e-10,
+      "significant": "True"
+    },
+    "mean_24h": {
+      "correlation": 0.048111711323019724,
+      "p_value": 0.0021283951054063355,
+      "significant": "True"
+    },
+    "std_24h": {
+      "correlation": 0.09910813909766095,
+      "p_value": 2.3045949325014522e-10,
+      "significant": "True"
+    },
+    "min_24h": {
+      "correlation": -0.05028944453999585,
+      "p_value": 0.0013231261564659682,
+      "significant": "True"
+    },
+    "max_24h": {
+      "correlation": 0.1050702705349964,
+      "p_value": 1.780553565785148e-11,
+      "significant": "True"
+    },
+    "is_hypoglycemic": {
+      "correlation": -0.06573868990016285,
+      "p_value": 2.6783938959679686e-05,
+      "significant": "True"
+    },
+    "is_hyperglycemic": {
+      "correlation": 0.569967784210746,
+      "p_value": 0.0,
+      "significant": "True"
+    },
+    "in_target_range": {
+      "correlation": -0.5598796846804897,
+      "p_value": 0.0,
+      "significant": "True"
+    },
+    "in_tight_range": {
+      "correlation": -0.4577656041234116,
+      "p_value": 3.228347529372768e-210,
+      "significant": "True"
+    },
+    "recent_hypo_6h": {
+      "correlation": -0.05136569839378855,
+      "p_value": 0.001039089457495334,
+      "significant": "True"
+    },
+    "recent_hyper_6h": {
+      "correlation": 0.059875017027387435,
+      "p_value": 0.00013132823571859699,
+      "significant": "True"
+    },
+    "deviation_from_daily_mean": {
+      "correlation": 0.6902773451576689,
+      "p_value": 0.0,
+      "significant": "True"
+    },
+    "deviation_from_recent_trend": {
+      "correlation": 0.6500104697854273,
+      "p_value": 0.0,
+      "significant": "True"
+    },
+    "glucose_variability": {
+      "correlation": 0.07894093786681916,
+      "p_value": 4.5361217013913997e-07,
+      "significant": "True"
+    },
+    "trend_strength": {
+      "correlation": 0.4480122553577275,
+      "p_value": 2.2176987760978365e-200,
+      "significant": "True"
+    },
+    "hourly_baseline": {
+      "correlation": 0.2659869691122175,
+      "p_value": 6.159695440583596e-67,
+      "significant": "True"
+    },
+    "deviation_from_pattern": {
+      "correlation": 0.6544828840024386,
+      "p_value": 0.0,
+      "significant": "True"
+    },
+    "pattern_consistency": {
+      "correlation": 0.010472892418670979,
+      "p_value": 0.503957520240581,
+      "significant": "False"
+    }
+  },
+  "redundant_pairs": [
+    {
+      "feature1": "current_glucose",
+      "feature2": "prev_15min",
+      "correlation": 0.9649602043484229,
+      "keep": "current_glucose",
+      "remove": "prev_15min"
+    },
+    {
+      "feature1": "current_glucose",
+      "feature2": "mean_1h",
+      "correlation": 0.9247892233367647,
+      "keep": "current_glucose",
+      "remove": "mean_1h"
+    },
+    {
+      "feature1": "current_glucose",
+      "feature2": "deviation_from_daily_mean",
+      "correlation": 0.9438552901731202,
+      "keep": "current_glucose",
+      "remove": "deviation_from_daily_mean"
+    },
+    {
+      "feature1": "current_glucose",
+      "feature2": "deviation_from_pattern",
+      "correlation": 0.9295275460058671,
+      "keep": "current_glucose",
+      "remove": "deviation_from_pattern"
+    },
+    {
+      "feature1": "prev_15min",
+      "feature2": "prev_30min",
+      "correlation": 0.9650113138517331,
+      "keep": "prev_15min",
+      "remove": "prev_30min"
+    },
+    {
+      "feature1": "prev_15min",
+      "feature2": "mean_1h",
+      "correlation": 0.9785923582406826,
+      "keep": "prev_15min",
+      "remove": "mean_1h"
+    },
+    {
+      "feature1": "prev_30min",
+      "feature2": "mean_1h",
+      "correlation": 0.992613954802968,
+      "keep": "mean_1h",
+      "remove": "prev_30min"
+    },
+    {
+      "feature1": "prev_60min",
+      "feature2": "mean_1h",
+      "correlation": 0.900020254165465,
+      "keep": "mean_1h",
+      "remove": "prev_60min"
+    },
+    {
+      "feature1": "prev_60min",
+      "feature2": "mean_3h",
+      "correlation": 0.9132243708551686,
+      "keep": "prev_60min",
+      "remove": "mean_3h"
+    },
+    {
+      "feature1": "roc_60min",
+      "feature2": "trend_strength",
+      "correlation": 0.9728657908142572,
+      "keep": "roc_60min",
+      "remove": "trend_strength"
+    },
+    {
+      "feature1": "mean_6h",
+      "feature2": "recent_hyper_6h",
+      "correlation": 0.902861441581696,
+      "keep": "mean_6h",
+      "remove": "recent_hyper_6h"
+    },
+    {
+      "feature1": "is_hyperglycemic",
+      "feature2": "in_target_range",
+      "correlation": 0.9896291796252724,
+      "keep": "is_hyperglycemic",
+      "remove": "in_target_range"
+    }
+  ],
+  "mutual_information": {
+    "hour": 0.31244896786569454,
+    "day_of_week": 0.08289041007275166,
+    "is_weekend": 0.00663261125392367,
+    "hour_sin": 0.17410856818719944,
+    "hour_cos": 0.185425473130453,
+    "current_glucose": 0.5019235489568548,
+    "prev_15min": 0.4058061852759831,
+    "prev_30min": 0.3314433338923033,
+    "prev_60min": 0.26337352436838835,
+    "roc_30min": 0.18390276520822635,
+    "roc_60min": 0.23794294813556416,
+    "mean_1h": 0.3595660471424713,
+    "std_1h": 0.1052697668093705,
+    "mean_3h": 0.3011734380294051,
+    "std_3h": 0.23773949366290648,
+    "min_3h": 0.5795195908939519,
+    "max_3h": 0.4174814486293945,
+    "mean_6h": 0.3800074371446316,
+    "std_6h": 0.3235976929613624,
+    "min_6h": 0.5228200756996682,
+    "max_6h": 0.36011668188295687,
+    "mean_12h": 0.42243490657022154,
+    "std_12h": 0.4218868394982582,
+    "min_12h": 0.39051025721731003,
+    "max_12h": 0.32915517885174905,
+    "mean_24h": 0.48968560300454467,
+    "std_24h": 0.46961436893636943,
+    "min_24h": 0.2768484879521913,
+    "max_24h": 0.23851798475228358,
+    "is_hypoglycemic": 0.0176706513223035,
+    "is_hyperglycemic": 0.1923942303932895,
+    "in_target_range": 0.1869491283984397,
+    "in_tight_range": 0.15423253229303802,
+    "recent_hypo_6h": 0.030484888026464096,
+    "recent_hyper_6h": 0.2656769059241615,
+    "deviation_from_daily_mean": 0.4627811519365972,
+    "deviation_from_recent_trend": 0.39845810195759945,
+    "glucose_variability": 0.3161295907321158,
+    "trend_strength": 0.22648801790810769,
+    "hourly_baseline": 0.2853264241265414,
+    "deviation_from_pattern": 0.37959576493758096,
+    "pattern_consistency": 0.0
+  },
+  "feature_scores": {
+    "hour": {
+      "composite_score": 0.410553910939741,
+      "target_correlation": 0.06893312921346503,
+      "mutual_information": 0.31244896786569454,
+      "variance": 47.71243871509912,
+      "is_redundant": false
+    },
+    "day_of_week": {
+      "composite_score": 0.11368239065406682,
+      "target_correlation": 0.0775469376632778,
+      "mutual_information": 0.08289041007275166,
+      "variance": 3.7848012722165407,
+      "is_redundant": false
+    },
+    "is_weekend": {
+      "composite_score": 0.054552288325055556,
+      "target_correlation": 0.07110236152878058,
+      "mutual_information": 0.00663261125392367,
+      "variance": 0.18475343392512195,
+      "is_redundant": false
+    },
+    "hour_sin": {
+      "composite_score": 0.1923518409282994,
+      "target_correlation": 0.14362051794405878,
+      "mutual_information": 0.17410856818719944,
+      "variance": 0.1264129100477985,
+      "is_redundant": false
+    },
+    "hour_cos": {
+      "composite_score": 0.19666000795841435,
+      "target_correlation": 0.1414479585773595,
+      "mutual_information": 0.185425473130453,
+      "variance": 0.12355807895300382,
+      "is_redundant": false
+    },
+    "current_glucose": {
+      "composite_score": 0.7598308456228203,
+      "target_correlation": 0.7061604602368344,
+      "mutual_information": 0.5019235489568548,
+      "variance": 2.757718800294664e-07,
+      "is_redundant": false
+    },
+    "prev_15min": {
+      "composite_score": 0.6406835831870284,
+      "target_correlation": 0.607947409229831,
+      "mutual_information": 0.4058061852759831,
+      "variance": 0.035786678966350696,
+      "is_redundant": true
+    },
+    "prev_30min": {
+      "composite_score": 0.5345020319046223,
+      "target_correlation": 0.5123526071818476,
+      "mutual_information": 0.3314433338923033,
+      "variance": 0.035833280541444405,
+      "is_redundant": true
+    },
+    "prev_60min": {
+      "composite_score": 0.3791922821339108,
+      "target_correlation": 0.3427718132799801,
+      "mutual_information": 0.26337352436838835,
+      "variance": 0.035924347924054086,
+      "is_redundant": true
+    },
+    "roc_30min": {
+      "composite_score": 0.3915297740640462,
+      "target_correlation": 0.4184379315753166,
+      "mutual_information": 0.18390276520822635,
+      "variance": 0.012403758851897716,
+      "is_redundant": false
+    },
+    "roc_60min": {
+      "composite_score": 0.4589175001748451,
+      "target_correlation": 0.474071194540211,
+      "mutual_information": 0.23794294813556416,
+      "variance": 0.017499669383042513,
+      "is_redundant": false
+    },
+    "mean_1h": {
+      "composite_score": 0.5759887772500055,
+      "target_correlation": 0.550342248730073,
+      "mutual_information": 0.3595660471424713,
+      "variance": 0.04292433214835067,
+      "is_redundant": true
+    },
+    "std_1h": {
+      "composite_score": 0.2163729979626648,
+      "target_correlation": 0.22851943955101306,
+      "mutual_information": 0.1052697668093705,
+      "variance": 0.01760420664769109,
+      "is_redundant": false
+    },
+    "mean_3h": {
+      "composite_score": 0.37168842372087857,
+      "target_correlation": 0.30450251276288337,
+      "mutual_information": 0.3011734380294051,
+      "variance": 0.041888324124635,
+      "is_redundant": true
+    },
+    "std_3h": {
+      "composite_score": 0.2863692640076649,
+      "target_correlation": 0.23049685822906374,
+      "mutual_information": 0.23773949366290648,
+      "variance": 0.022499803946126697,
+      "is_redundant": false
+    },
+    "min_3h": {
+      "composite_score": 0.46722242980438483,
+      "target_correlation": 0.23594339232998024,
+      "mutual_information": 0.5795195908939519,
+      "variance": 0.0385706693726507,
+      "is_redundant": false
+    },
+    "max_3h": {
+      "composite_score": 0.49471771274774573,
+      "target_correlation": 0.39321681659774976,
+      "mutual_information": 0.4174814486293945,
+      "variance": 0.043212797601218024,
+      "is_redundant": false
+    },
+    "mean_6h": {
+      "composite_score": 0.2714276646558735,
+      "target_correlation": 0.10524270352694014,
+      "mutual_information": 0.3800074371446316,
+      "variance": 0.04570786314258527,
+      "is_redundant": false
+    },
+    "std_6h": {
+      "composite_score": 0.23400362011313977,
+      "target_correlation": 0.093723484524954,
+      "mutual_information": 0.3235976929613624,
+      "variance": 0.029922244552195804,
+      "is_redundant": false
+    },
+    "min_6h": {
+      "composite_score": 0.3474446361324037,
+      "target_correlation": 0.10826460707990468,
+      "mutual_information": 0.5228200756996682,
+      "variance": 0.03317329165024376,
+      "is_redundant": false
+    },
+    "max_6h": {
+      "composite_score": 0.3311304324346604,
+      "target_correlation": 0.20408158892029588,
+      "mutual_information": 0.36011668188295687,
+      "variance": 0.049599648062182894,
+      "is_redundant": false
+    },
+    "mean_12h": {
+      "composite_score": 0.24394237981759004,
+      "target_correlation": 0.03545588344191094,
+      "mutual_information": 0.42243490657022154,
+      "variance": 0.037153780964641205,
+      "is_redundant": false
+    },
+    "std_12h": {
+      "composite_score": 0.2235582092711575,
+      "target_correlation": 0.007136777233239971,
+      "mutual_information": 0.4218868394982582,
+      "variance": 0.0254676537249655,
+      "is_redundant": false
+    },
+    "min_12h": {
+      "composite_score": 0.24634436909993693,
+      "target_correlation": 0.062274620695082904,
+      "mutual_information": 0.39051025721731003,
+      "variance": 0.022673900136497303,
+      "is_redundant": false
+    },
+    "max_12h": {
+      "composite_score": 0.2400658334729066,
+      "target_correlation": 0.09808453838857056,
+      "mutual_information": 0.32915517885174905,
+      "variance": 0.05315951338021787,
+      "is_redundant": false
+    },
+    "mean_24h": {
+      "composite_score": 0.2876624607351499,
+      "target_correlation": 0.048111711323019724,
+      "mutual_information": 0.48968560300454467,
+      "variance": 0.024125378774518234,
+      "is_redundant": false
+    },
+    "std_24h": {
+      "composite_score": 0.313360463268735,
+      "target_correlation": 0.09910813909766095,
+      "mutual_information": 0.46961436893636943,
+      "variance": 0.019363188963162217,
+      "is_redundant": false
+    },
+    "min_24h": {
+      "composite_score": 0.1789888910479775,
+      "target_correlation": 0.05028944453999585,
+      "mutual_information": 0.2768484879521913,
+      "variance": 0.015513387660035937,
+      "is_redundant": false
+    },
+    "max_24h": {
+      "composite_score": 0.1982671527126189,
+      "target_correlation": 0.1050702705349964,
+      "mutual_information": 0.23851798475228358,
+      "variance": 0.09495845769409601,
+      "is_redundant": false
+    },
+    "is_hypoglycemic": {
+      "composite_score": 0.05571563660782944,
+      "target_correlation": 0.06573868990016285,
+      "mutual_information": 0.0176706513223035,
+      "variance": 0.005129327909973597,
+      "is_redundant": false
+    },
+    "is_hyperglycemic": {
+      "composite_score": 0.5042003460882248,
+      "target_correlation": 0.569967784210746,
+      "mutual_information": 0.1923942303932895,
+      "variance": 0.24701046837771715,
+      "is_redundant": false
+    },
+    "in_target_range": {
+      "composite_score": 0.4942409321292838,
+      "target_correlation": 0.5598796846804897,
+      "mutual_information": 0.1869491283984397,
+      "variance": 0.247553395018088,
+      "is_redundant": true
+    },
+    "in_tight_range": {
+      "composite_score": 0.4047601012459045,
+      "target_correlation": 0.4577656041234116,
+      "mutual_information": 0.15423253229303802,
+      "variance": 0.18979646247345255,
+      "is_redundant": false
+    },
+    "recent_hypo_6h": {
+      "composite_score": 0.05227883219512969,
+      "target_correlation": 0.05136569839378855,
+      "mutual_information": 0.030484888026464096,
+      "variance": 0.030537885323779882,
+      "is_redundant": false
+    },
+    "recent_hyper_6h": {
+      "composite_score": 0.18026576800758273,
+      "target_correlation": 0.059875017027387435,
+      "mutual_information": 0.2656769059241615,
+      "variance": 0.0806325494489732,
+      "is_redundant": true
+    },
+    "deviation_from_daily_mean": {
+      "composite_score": 0.7284500898394044,
+      "target_correlation": 0.6902773451576689,
+      "mutual_information": 0.4627811519365972,
+      "variance": 0.030584959308120288,
+      "is_redundant": true
+    },
+    "deviation_from_recent_trend": {
+      "composite_score": 0.6666211820096193,
+      "target_correlation": 0.6500104697854273,
+      "mutual_information": 0.39845810195759945,
+      "variance": 0.025897904769467107,
+      "is_redundant": false
+    },
+    "glucose_variability": {
+      "composite_score": 0.21967870835853825,
+      "target_correlation": 0.07894093786681916,
+      "mutual_information": 0.3161295907321158,
+      "variance": 0.03181850270948349,
+      "is_redundant": false
+    },
+    "trend_strength": {
+      "composite_score": 0.43453224960054826,
+      "target_correlation": 0.4480122553577275,
+      "mutual_information": 0.22648801790810769,
+      "variance": 0.016490736371736547,
+      "is_redundant": true
+    },
+    "hourly_baseline": {
+      "composite_score": 0.33637827319406455,
+      "target_correlation": 0.2659869691122175,
+      "mutual_information": 0.2853264241265414,
+      "variance": 0.08112577410320719,
+      "is_redundant": false
+    },
+    "deviation_from_pattern": {
+      "composite_score": 0.660039273630643,
+      "target_correlation": 0.6544828840024386,
+      "mutual_information": 0.37959576493758096,
+      "variance": 0.029678694110384565,
+      "is_redundant": true
+    },
+    "pattern_consistency": {
+      "composite_score": 0.007419470973285055,
+      "target_correlation": 0.010472892418670979,
+      "mutual_information": 0.0,
+      "variance": 0.0009766084021143701,
+      "is_redundant": false
+    }
+  },
+  "recommended_features": [
+    "current_glucose",
+    "deviation_from_recent_trend",
+    "is_hyperglycemic",
+    "max_3h",
+    "min_3h",
+    "roc_60min",
+    "hour",
+    "in_tight_range",
+    "roc_30min",
+    "min_6h",
+    "hourly_baseline",
+    "max_6h",
+    "std_24h",
+    "mean_24h",
+    "std_3h",
+    "mean_6h",
+    "min_12h",
+    "mean_12h",
+    "max_12h",
+    "std_6h",
+    "std_12h",
+    "glucose_variability",
+    "std_1h",
+    "max_24h",
+    "hour_cos",
+    "hour_sin",
+    "min_24h",
+    "day_of_week"
+  ],
+  "features_to_remove": [
+    "prev_15min",
+    "trend_strength",
+    "prev_30min",
+    "prev_60min",
+    "deviation_from_pattern",
+    "deviation_from_daily_mean",
+    "recent_hyper_6h",
+    "in_target_range",
+    "mean_1h",
+    "mean_3h"
+  ]
+}

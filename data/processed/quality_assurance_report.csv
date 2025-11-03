@@ -1,0 +1,58 @@
+subject_id,passed,num_samples,num_features,date_range_days,target_mean,target_std,num_issues,issues
+Subject6,False,3803,42,13,0.4082756303503083,0.18239596344585973,3,"Target out of range: [0.058, 1.003]; Glucose out of physiological range: [0.1, 1.0]; Unexpected feature count: 42 (expected ~24)"
+Subject39,False,3676,42,14,0.28036610678878005,0.1071221699699488,2,"Normalized glucose out of range: [-0.111, -0.108]; Unexpected feature count: 42 (expected ~24)"
+Subject42,False,3999,42,14,0.28600749891639576,0.13061898649694134,3,"Target out of range: [-0.003, 0.846]; Normalized glucose out of range: [-0.111, -0.108]; Unexpected feature count: 42 (expected ~24)"
+Subject15,False,4289,42,14,0.4149685241314992,0.1928894279734682,3,"Target out of range: [0.014, 1.003]; Glucose out of physiological range: [0.0, 1.0]; Unexpected feature count: 42 (expected ~24)"
+Subject54,False,4119,42,14,0.21283616164926764,0.10378844271093389,2,"Normalized glucose out of range: [-0.111, -0.108]; Unexpected feature count: 42 (expected ~24)"
+Subject23,False,4065,42,14,0.4254052207188739,0.22601903308653323,3,"Target out of range: [0.022, 1.003]; Glucose out of physiological range: [0.0, 1.0]; Unexpected feature count: 42 (expected ~24)"
+Subject35,False,4035,42,14,0.36535040616825004,0.25346449051147707,3,"Target out of range: [-0.003, 1.003]; Glucose out of physiological range: [-0.0, 1.0]; Unexpected feature count: 42 (expected ~24)"
+Subject19,True,7163,42,14,0.38488684132967255,0.12216902940411008,1,Unexpected feature count: 42 (expected ~24)
+Subject18,False,3600,42,13,0.46434876543209874,0.1822566842786226,3,"Target out of range: [0.036, 1.003]; Glucose out of physiological range: [0.0, 1.0]; Unexpected feature count: 42 (expected ~24)"
+Subject34,False,4082,42,14,0.5363867113070936,0.2673523905692197,3,"Target out of range: [0.067, 1.003]; Glucose out of physiological range: [0.1, 1.0]; Unexpected feature count: 42 (expected ~24)"
+Subject22,True,5787,42,14,0.2801499529596989,0.11139513675016403,1,Unexpected feature count: 42 (expected ~24)
+Subject14,False,4308,42,14,0.42494648199731766,0.17685900440974148,3,"Target out of range: [-0.003, 0.964]; Normalized glucose out of range: [-0.003, 0.964]; Unexpected feature count: 42 (expected ~24)"
+Subject43,False,4092,42,14,0.4596434777886391,0.28543834592549977,3,"Target out of range: [-0.003, 1.003]; Glucose out of physiological range: [-0.0, 1.0]; Unexpected feature count: 42 (expected ~24)"
+Subject38,False,4220,42,14,0.3095770507372301,0.1171887428028412,2,"Normalized glucose out of range: [-0.111, -0.108]; Unexpected feature count: 42 (expected ~24)"
+Subject7,True,7739,42,14,0.4769970998262767,0.19381401915328747,1,Unexpected feature count: 42 (expected ~24)
+Subject25,False,7666,42,14,0.48874068759602285,0.22285951593329026,3,"Target out of range: [0.081, 1.003]; Glucose out of physiological range: [0.1, 1.0]; Unexpected feature count: 42 (expected ~24)"
+Subject33,False,4779,42,14,0.4451134593476088,0.18778901998194766,3,"Target out of range: [0.044, 1.003]; Glucose out of physiological range: [0.0, 1.0]; Unexpected feature count: 42 (expected ~24)"
+Subject48,True,3674,42,14,0.3904335268856226,0.14062166627998562,1,Unexpected feature count: 42 (expected ~24)
+Subject29,False,3942,42,14,0.3529381798419589,0.1658301175064102,3,"Target out of range: [-0.003, 0.871]; Normalized glucose out of range: [-0.111, -0.108]; Unexpected feature count: 42 (expected ~24)"
+Subject44,True,4668,42,14,0.33672462629724836,0.14315585152040727,1,Unexpected feature count: 42 (expected ~24)
+Subject13,True,7716,42,14,0.32482503888024883,0.1475637855248742,1,Unexpected feature count: 42 (expected ~24)
+Subject52,False,3424,42,14,0.427473553608515,0.15088769504623512,3,"Target out of range: [0.158, 1.002]; Normalized glucose out of range: [-0.111, -0.108]; Unexpected feature count: 42 (expected ~24)"
+Subject53,False,3175,42,14,0.35499262783208846,0.1964500124306373,3,"Target out of range: [-0.003, 1.002]; Normalized glucose out of range: [-0.111, -0.108]; Unexpected feature count: 42 (expected ~24)"
+Subject12,True,7863,42,14,0.40538245227295205,0.14875146013720805,1,Unexpected feature count: 42 (expected ~24)
+Subject45,False,4076,42,14,0.3157817138398212,0.11878468529031262,2,"Normalized glucose out of range: [-0.111, -0.108]; Unexpected feature count: 42 (expected ~24)"
+SUB001,False,4309,42,14,0.23094595984555424,0.06925448568282394,2,"Normalized glucose out of range: [-0.111, -0.108]; Unexpected feature count: 42 (expected ~24)"
+Subject28,True,7763,42,14,0.35909978960024047,0.15358396242142747,1,Unexpected feature count: 42 (expected ~24)
+Subject49,False,2609,42,14,0.3128956138798525,0.18211123673509452,3,"Target out of range: [0.019, 1.002]; Normalized glucose out of range: [-0.111, -0.108]; Unexpected feature count: 42 (expected ~24)"
+Subject32,False,3954,42,14,0.3896096779632439,0.20555117677533005,3,"Target out of range: [-0.003, 1.003]; Glucose out of physiological range: [-0.0, 1.0]; Unexpected feature count: 42 (expected ~24)"
+Subject24,False,3606,42,14,0.531708726197079,0.25539457839275964,3,"Target out of range: [-0.003, 1.003]; Glucose out of physiological range: [-0.0, 1.0]; Unexpected feature count: 42 (expected ~24)"
+Subject31,False,4074,42,14,0.38169898308014194,0.1522363508126801,2,"Normalized glucose out of range: [-0.111, -0.108]; Unexpected feature count: 42 (expected ~24)"
+Subject27,False,7478,42,14,0.3241664437906749,0.18937810348166123,3,"Target out of range: [0.017, 1.003]; Glucose out of physiological range: [0.0, 1.0]; Unexpected feature count: 42 (expected ~24)"
+Subject50,False,2916,42,14,0.521022194440462,0.19722374893261446,3,"Target out of range: [0.033, 1.002]; Normalized glucose out of range: [-0.111, -0.108]; Unexpected feature count: 42 (expected ~24)"
+Subject11,False,3830,42,14,0.41425514940527997,0.20684887210871566,3,"Target out of range: [-0.003, 1.003]; Glucose out of physiological range: [-0.0, 1.0]; Unexpected feature count: 42 (expected ~24)"
+Subject46,False,4283,42,14,0.4417261520591578,0.2410816581769302,3,"Target out of range: [-0.003, 1.002]; Normalized glucose out of range: [-0.111, -0.108]; Unexpected feature count: 42 (expected ~24)"
+SUB002,False,4309,42,14,0.3697383145783261,0.12193629539861277,2,"Normalized glucose out of range: [-0.111, -0.108]; Unexpected feature count: 42 (expected ~24)"
+SUB003,False,4309,42,14,0.3843194953141792,0.15564425795103098,2,"Normalized glucose out of range: [-0.111, -0.108]; Unexpected feature count: 42 (expected ~24)"
+Subject3,False,3877,42,14,0.5175357521565931,0.2412414175655071,3,"Target out of range: [0.036, 1.003]; Glucose out of physiological range: [0.0, 1.0]; Unexpected feature count: 42 (expected ~24)"
+Subject47,False,4203,42,14,0.31040432869379014,0.08991598038838397,2,"Normalized glucose out of range: [-0.111, -0.108]; Unexpected feature count: 42 (expected ~24)"
+Subject10,False,5699,42,11,0.37095543077732934,0.24251942474623034,3,"Target out of range: [-0.003, 1.003]; Glucose out of physiological range: [-0.0, 1.0]; Unexpected feature count: 42 (expected ~24)"
+Subject51,False,4044,42,14,0.39357939457632707,0.1730417803387514,3,"Target out of range: [-0.003, 0.938]; Normalized glucose out of range: [-0.111, -0.108]; Unexpected feature count: 42 (expected ~24)"
+Subject26,False,4217,42,14,0.8260526177113799,0.20836061056442962,3,"Target out of range: [0.036, 1.003]; Glucose out of physiological range: [0.0, 1.0]; Unexpected feature count: 42 (expected ~24)"
+Subject30,False,4208,42,14,0.2886265067197927,0.12387914078483267,2,"Normalized glucose out of range: [-0.111, -0.108]; Unexpected feature count: 42 (expected ~24)"
+Subject17,True,7199,42,13,0.34173303390903054,0.14046997580990006,1,Unexpected feature count: 42 (expected ~24)
+Subject40,False,4236,42,14,0.37089103976497745,0.17757953726696538,3,"Target out of range: [-0.003, 1.003]; Glucose out of physiological range: [-0.0, 1.0]; Unexpected feature count: 42 (expected ~24)"
+Subject4,False,6969,42,14,0.3032126401045901,0.1573367041749031,3,"Target out of range: [-0.003, 0.894]; Normalized glucose out of range: [-0.003, 0.894]; Unexpected feature count: 42 (expected ~24)"
+SUB004,False,4309,42,14,0.48158127889420427,0.1698753304520536,2,"Normalized glucose out of range: [-0.111, -0.108]; Unexpected feature count: 42 (expected ~24)"
+Subject37,False,4243,42,14,0.41847119430324453,0.13570496104746252,2,"Normalized glucose out of range: [-0.111, -0.108]; Unexpected feature count: 42 (expected ~24)"
+Subject8,False,4268,42,14,0.5301858794126835,0.2580576400443081,3,"Target out of range: [0.019, 1.003]; Glucose out of physiological range: [0.0, 1.0]; Unexpected feature count: 42 (expected ~24)"
+Subject21,False,4341,42,14,0.3397060329161228,0.1859508567839425,3,"Target out of range: [-0.003, 0.950]; Normalized glucose out of range: [-0.003, 0.950]; Unexpected feature count: 42 (expected ~24)"
+Subject20,False,7933,42,14,0.36435494488563946,0.16542676789031935,3,"Target out of range: [-0.003, 1.003]; Glucose out of physiological range: [-0.0, 1.0]; Unexpected feature count: 42 (expected ~24)"
+Subject9,False,7130,42,14,0.4428658251519401,0.2193484481046467,3,"Target out of range: [-0.003, 1.003]; Glucose out of physiological range: [-0.0, 1.0]; Unexpected feature count: 42 (expected ~24)"
+Subject36,False,4197,42,14,0.37808144690652057,0.15342680932517755,2,"Normalized glucose out of range: [-0.111, -0.108]; Unexpected feature count: 42 (expected ~24)"
+SUB005,False,4309,42,14,0.19379914366984438,0.06739911523725167,2,"Normalized glucose out of range: [-0.111, -0.108]; Unexpected feature count: 42 (expected ~24)"
+Subject5,False,4258,42,14,0.5145993163196075,0.18729785262573714,3,"Target out of range: [0.089, 1.003]; Glucose out of physiological range: [0.1, 1.0]; Unexpected feature count: 42 (expected ~24)"
+Subject41,True,2847,42,14,0.3453703703703703,0.15445797928679061,1,Unexpected feature count: 42 (expected ~24)
+Subject16,False,4195,42,14,0.42735465501258113,0.21161918757635398,3,"Target out of range: [0.047, 1.003]; Glucose out of physiological range: [0.0, 1.0]; Unexpected feature count: 42 (expected ~24)"

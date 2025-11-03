@@ -1,0 +1,20 @@
+{
+  "setup_date": "2025-11-03 10:56:49.201681",
+  "config_path": "configs/experiment_config_v2.json",
+  "experiment_dir": "experiments/cgm_fl_benchmark_v2",
+  "feature_set": "core_24",
+  "core_features_count": 24,
+  "valid_subjects_count": 47,
+  "excluded_subjects": [
+    "Subject13",
+    "Subject14",
+    "Subject15",
+    "Subject18",
+    "Subject21",
+    "Subject25",
+    "Subject32",
+    "Subject44",
+    "Subject5",
+    "Subject7"
+  ]
+}
